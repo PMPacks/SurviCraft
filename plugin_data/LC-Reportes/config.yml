@@ -1,0 +1,47 @@
+report-webhook-url: "https://discord.com/api/webhooks/1027449555886817322/dwb4Mm-wTPgOaDgkfzcqRiIK2kovYytH1EYJrCpD2Oxb_ZpYQ1xgFJ2c3IqtlHI_zwq6"
+
+suggest-webhook-url: "https://discord.com/api/webhooks/1027450003469377566/p4u9UjUIlf85ff-Blcbp3k64peyge-KN48Khd63bdu4QCRRFdN-jCwhbMlumbyLXeV9n"
+
+bug-webhook-url: "https://discord.com/api/webhooks/1027449881272520725/AwJF-FA9md37mQFe_E6Y1QG4SOtyB5INs4mJejzs4TSZ_gdaNEMDuFpRUlP01z8LI2U4"
+
+suggest-webhook-username: "ArleyMC Sugerencia"
+bug-webhook-username: "ArleyMC Bugs"
+report-webhook-username: "ArleyMC Reportes"
+
+suggest-webhook-avatar-url: "https://ibb.co/TY8WqLH"
+bug-webhook-avatar-url: "https://ibb.co/TY8WqLH"
+report-webhook-avatar-url: "https://ibb.co/TY8WqLH"
+
+report-embed-color: "2EE82A"
+suggest-embed-color: "2EE82A"
+bug-embed-color: "2EE82A"
+
+suggest-thumbnail-url: "https://i.imgur.com/FEQtSvd.png"
+bug-thumbnail-url: "https://i.imgur.com/ZZ7oG8h.png"
+report-thumbnail-url: "https://i.imgur.com/lOTCExk.png"
+
+enable-startup-alert: true
+
+enable-shutdown-alert: true
+
+startup-message-title: ":white_check_mark: ArleyMC está encendido !"
+
+startup-embed-field-title: "ArleyMC en linea"
+
+startup-embed-field-message: "ArleyMC en estos momentos está encendido, ya puedes entrar."
+
+startup-footer-image-url: ""
+
+startup-footer-message: "ArleyMC"
+
+shutdown-message-title: ":x: ArleMC está apagado !"
+
+shutdown-embed-field-title: "ArleyMC desconectado"
+
+shutdown-embed-field-message: "ArleyMC en estos momentos está apagado, intenta entrar más tarde."
+
+shutdown-footer-image-url: ""
+
+shutdown-footer-message: "ArleyMC"
+
+

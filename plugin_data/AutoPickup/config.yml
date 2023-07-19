@@ -1,0 +1,21 @@
+#                _        _____ _      _
+#     /\        | |      |  __ (_)    | |
+#    /  \  _   _| |_ ___ | |__) |  ___| | ___   _ _ __
+#   / /\ \| | | | __/ _ \|  ___/ |/ __| |/ / | | | '_ \
+#  / ____ \ |_| | || (_) | |   | | (__|   <| |_| | |_) |
+# /_/    \_\__,_|\__\___/|_|   |_|\___|_|\_\\__,_| .__/
+#                                                | |
+#                                                |_|
+# Config File
+# Version: 1.0.6
+
+# Mode can be either "whitelist" or "blacklist".
+# Whitelist ensures that AutoPickup is only active in the worlds entered below.
+# Blacklist ensures that AutoPickup is deactivated in the worlds entered below.
+mode: blacklist
+# Set whitelisted/blacklisted worlds here.
+worlds: []
+
+# Set a pop-up message here that appears when the player's inventory is full.
+# Leave blank to disable pop-up messages.
+full-inventory-popup: '&cYour inventory is full!'

@@ -1,0 +1,112 @@
+---
+#
+# CONFIG FILE
+#     _____ _                _
+#   / ____| |               | |
+#  | |    | | ___  __ _ _ __| |     __ _  __ _
+#  | |    | |/ _ \/ _` | '__| |    / _` |/ _` |
+#  | |____| |  __/ (_| | |  | |___| (_| | (_| |
+#  \_____ |_|\___|\__,_|_|  |______\__,_|\__, |
+#                                         __/ |
+#                                        |___/
+metadata/version: 2.0.0
+#
+
+# ClearLag sends messages to the players at certain intervals to inform them about the removal of the entities.
+# Here you can adjust all alert-message-related settings.
+alert-message:
+
+  # Select the type of the message.
+  # Available types: message, title, tip, popup
+  type: message
+
+  # Configure the text of the message here.
+  # {TIME} Duration until the entities are removed.
+  # {UNIT} Unit of the time. E.g. minutes
+  text: '§lSHADOW§4MC §7Todas las entidades se eliminarán en &c{TIME} {UNIT}&f!'
+
+# After each removal, a success message is sent to the players.
+# Here you can adjust all success-message-related settings.
+success-message:
+
+  # Select the type of the message.
+  # Available types: message, title, tip, popup
+  type: message
+
+  # Configure the text of the message here.
+  # {ENTITY_COUNT} Number of removed entities.
+  # {ITEM_COUNT} Number of removed items.
+  text: '&7[&cClearLag&7] &c{ITEM_COUNT}Artículos y fand &c{ENTITY_COUNT} Entidadeses &fwere removed.'
+
+# ClearLag offers the possibility to remove entities manually by command.
+# Here you can adjust all command-related settings.
+command/clearlag:
+
+  # Configure whether the command should be enabled.
+  enabled: true
+
+  # Set the name of the command.
+  name: clearlag
+
+  # Set the description of the command.
+  description: Removes entities to avoid lags
+
+# Here you can adjust the behaviour of the entity removals.
+clearlag/preferences:
+
+  # Set the time span between each entity removal.
+  # m=minutes
+  # s=seconds
+  # E.g. 20m30s
+  clear-delay: 15m
+
+  # Set whether the clearlag messages should be logged in the console.
+  # If false, the messages are only sent to the players.
+  # True by default.
+  logging/console: true
+
+  # Specify here which entities are to be removed and which are not.
+  # All entities that inherit from Human are automatically excluded.
+  entities:
+
+    # Set whether items are to be removed.
+    entity/item: true
+
+    # Set whether to remove entities that inherit from Living.
+    # This usually includes all monsters and animals.
+    entity/living: true
+
+    # Set whether experience-orbs are to be removed.
+    entity/experience-orb: true
+
+    # Decide whether all entities should be removed.
+    # All previous settings are disregarded.
+    # This could be useful if entities of plugins do not inherit from Living.
+    # False by default.
+    entity/*: false
+
+    # A list of all entities or items that should not be removed.
+    # E.g. Zombie or Pig or ItemEntity or Diamond ...
+    entity/blacklist: []
+
+# Set the time units to fit the alert message.
+time/unit:
+
+  # Several hours.
+  unit/hours: hours
+
+  # One hour.
+  unit/hour: hour
+
+  # Several minutes.
+  unit/minutes: minutes
+
+  # One minute.
+  unit/minute: minute
+
+  # Several seconds.
+  unit/seconds: seconds
+
+  # One second.
+  unit/second: second
+...

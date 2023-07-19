@@ -1,0 +1,42 @@
+---
+ca,ino:
+  X: -458.9641
+  "Y": 65
+  Z: 2791.3962
+  level: world
+  homeName: ca,ino
+  yaw: 170.69964599609375
+  pitch: 34.180023193359375
+0,0:
+  X: 0.5863
+  "Y": 79
+  Z: 0.4662
+  level: world
+  homeName: 0,0
+  yaw: 260.5561752319336
+  pitch: 88.88690185546875
+micasita:
+  X: 1000003.4375
+  "Y": 40
+  Z: 999997.8125
+  level: world
+  homeName: micasita
+  yaw: 13.365158081054688
+  pitch: 49.17352294921875
+la caca de ghost:
+  X: 1000000.25
+  "Y": 240
+  Z: 1000000.6875
+  level: world
+  homeName: la caca de ghost
+  yaw: 31.85113525390625
+  pitch: 63.35685729980469
+fuera de mi casa:
+  X: 1000004.625
+  "Y": 71
+  Z: 999997.25
+  level: world
+  homeName: fuera de mi casa
+  yaw: 135.18496704101562
+  pitch: 17.565155029296875
+...

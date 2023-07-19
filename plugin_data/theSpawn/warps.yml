@@ -1,0 +1,46 @@
+---
+Survival:
+  X: 255.3797
+  "Y": 102.8175
+  Z: 256.5037
+  level: world
+  warpName: Survival
+  iconPath: textures/ui/world_glyph_colour_2x_black_outline
+  yaw: 1.6368865966796875
+  pitch: 89.89999389648438
+§l§aSurvival:
+  X: 255.26550000000003
+  "Y": 103.2465
+  Z: 256.52919999999995
+  level: world
+  warpName: §l§aSurvival
+  iconPath: textures/ui/world_glyph_colour_2x_black_outline
+  yaw: 92.75357055664062
+  pitch: 78.19638061523438
+SURVIVAL:
+  X: 255.4928
+  "Y": 103.64309999999999
+  Z: 256.4878
+  level: world
+  warpName: SURVIVAL
+  iconPath: textures/ui/world_glyph_colour_2x_black_outline
+  yaw: 0.155303955078125
+  pitch: 88.67864990234375
+§l§gSURVIVAL:
+  X: 255.4916
+  "Y": 102.9033
+  Z: 256.69139999999993
+  level: world
+  warpName: §l§gSURVIVAL
+  iconPath: textures/ui/world_glyph_colour_2x_black_outline
+  yaw: 359.0922546386719
+  pitch: 89.89999389648438
+boss:
+  X: 25115.4258
+  "Y": 79
+  Z: 25115.3145
+  level: ItzAngelZzYT
+  warpName: boss
+  yaw: 111.51800537109375
+  pitch: 89.89999389648438
+...

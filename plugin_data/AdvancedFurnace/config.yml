@@ -1,0 +1,9 @@
+---
+# Welcome to the CustomFurnace plugin !
+# Discord: Refaltor#7393
+
+recipes:
+  test:
+    input: "388:0"
+    result: "4:0"
+...

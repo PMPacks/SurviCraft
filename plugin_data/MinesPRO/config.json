@@ -1,0 +1,19 @@
+{
+    "vClavo": {
+        "name": "vClavo",
+        "pos1": [
+            427,
+            69,
+            260
+        ],
+        "pos2": [
+            427,
+            69,
+            257
+        ],
+        "world": "Lobby",
+        "blocks": [],
+        "resetTime": 1,
+        "lastReset": 1678243832
+    }
+}

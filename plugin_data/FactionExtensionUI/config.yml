@@ -1,0 +1,37 @@
+#================================================
+     #Configuracion simple dela extension de SimpleFaction en formulario
+#===============================================
+#Button1
+Createfaction-Button: "§aCreate Faction\n§fCrear una faction"
+#Button2
+DisbandFaction-Button: "§aDisband Faction\n§fEliminar una faction"
+#Button3
+LeaveFaction-Button: "§aLeave Faction\n§fSalir de una faction"
+#Button4
+InviteFaction-Button: "§aInvite Faction\n§fInvitar a una faction"
+#Button5
+TopFaction-Button: "§aTop Faction\n§fTop de faction"
+#Button6
+AcceptFaction-Button: "§aAccept Faction\n§fAcceptar a una faction"
+#Button7
+BorderFaction-Button: "§aBorder Faction\n§fBordes de claims"
+#Button8
+MapFaction-Button: "§aMap Faction\n§fMapas de claims"
+#Button9
+HomeFaction-Button: "§aHome Faction\n§fDirigirse a un home"
+#Button10
+SetHomeFaction-Button: "§aSetHome Faction\n§fEstablecer un home"
+#Button11
+DelHomeFaction-Button: "§aDelHome Faction\n§fEliminar un home"
+#Button12
+TransferFaction-Button: "§aTransfer Faction\n§fTransferir una faction"
+#Button13
+InfoFaction-Button: "§aInfo Faction\n§fVer informacion de una faction"
+#Button14
+ChatFaction-Button: "§aChat Faction\n§fChat de una faction"
+#Button15
+PromoteMember-Button: "§aPromote Faction\n§fPromotear a un miembro"
+#Button16
+DemoteMember-Button: "§aDemote Faction\n§fDemotear a un miembro"
+#Button17
+KickMember-Button: "§aKick Faction\n§fExpulsar a un miembro"

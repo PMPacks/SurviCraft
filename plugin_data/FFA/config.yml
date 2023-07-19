@@ -1,0 +1,66 @@
+---
+scoreboardIp: play.example.net
+banned-commands:
+- /kill
+death-respawn-inMap: true
+join-and-respawn-protected: true
+protected-time: 3
+protected-message: '&eYou''re now protected for &c{TIME} &eseconds'
+death-attack-message: '&e{PLAYER} &fwas killed by &c{KILLER}'
+death-void-message: '&c{PLAYER} &ffall into void'
+respawn-message: '&eRespawned'
+join-message: '&7{PLAYER} &ejoined to game.'
+leave-message: '&7{PLAYER} &ehas leave to game.'
+kits:
+  default:
+    slot-0:
+      id: 267
+      meta: 0
+      count: 1
+      enchants: []
+    slot-1:
+      id: 322
+      meta: 0
+      count: 5
+      enchants: []
+    slot-2:
+      id: 261
+      meta: 0
+      count: 1
+      enchants: []
+    slot-3:
+      id: 262
+      meta: 0
+      count: 15
+      enchants: []
+    helmet:
+      id: 306
+      enchants: []
+    chestplate:
+      id: 307
+      enchants:
+        id-0:
+          level: 2
+    leggings:
+      id: 308
+      enchants: []
+    boots:
+      id: 309
+      enchants: []
+kills-messages:
+- '&eYou''re the boss, you''ve got {KILLS} kills :).'
+- '&eGood one you''ve now reached a {KILLS} kills :D.'
+- '&eYou are now a great warrior, you''ve got {KILLS} kills ;D.'
+scoreboard-title: FFA
+provider: sqlite
+database:
+  type: sqlite
+  sqlite:
+    file: arenas.sql
+  mysql:
+    host: 127.0.0.1
+    username: root
+    password: ""
+    schema: your_schema
+  worker-limit: 1
+...

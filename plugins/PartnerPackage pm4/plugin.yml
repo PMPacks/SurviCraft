@@ -1,0 +1,11 @@
+name: Partner-Packages
+version: 1.0.0
+api: 4.0.0
+author: LegasyDevs
+main: GreekHCF\Greek
+
+
+permissions:
+  pp.use:
+    default: op
+    description:  Greek PP

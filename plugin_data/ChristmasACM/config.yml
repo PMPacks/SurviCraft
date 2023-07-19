@@ -1,0 +1,33 @@
+    
+#      _       ____   __  __ 
+#     / \     / ___| |  \/  |
+#    / _ \   | |     | |\/| |
+#   / ___ \  | |___  | |  | |
+#  /_/   \_\  \____| |_|  |_|
+# The creator of this plugin was fernanACM.
+# https://github.com/fernanACM
+  
+Prefix: "§l[§cChristmasACM§f]§8§r» "
+
+# Form
+Form:
+  title: "§l§9CHRISTMAS ACM"
+  content: "§eSelect your preferred accessory:"
+  # buttons
+  cap: "§b§lCHRISTMAS HAT\n§r§7Click"
+  horns: "§g§lCHRISTMAS HONRS\n§r§7Click"
+  scarf: "§3§lCHRISTMAS SCARF\n§r§7Click"
+  reset-skin: "§l§5RESET SKIN\n§r§7Click"
+  close-menu: "§l§4CLOSE MENU"
+
+FireWorks:
+  flight-duration: 3
+
+BroadCast:
+  title: "§b¡Merry christmas {PLAYER}!"
+  subtitle: "§ewishes you fernanACM"
+
+Messages: 
+  no-permission: "§cYou don't have permissions!"
+  selection-successful: "§aYou have selected the accessory from:§b "
+  reset-skin: "§aHis appearance is back to normal!"

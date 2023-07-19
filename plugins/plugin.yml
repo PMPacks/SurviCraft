@@ -1,0 +1,16 @@
+---
+name: RedeemCode
+version: 1.0-BETA
+main: codes\Codes
+api: 4.0.0
+author: iJonyMx
+permissions:
+  codes.create:
+    default: op
+  codes.delete:
+    default: op
+  codes.give:
+    default: op
+  codes.mycodes:
+    default: op
+...

@@ -1,0 +1,7 @@
+name: SimpleFaction
+author: Ayzrix
+description: Faction Complement
+version: 1.6.8
+main: Ayzrix\SimpleFaction\Main
+softdepend: [EconomyAPI]
+api: [4.0.0]

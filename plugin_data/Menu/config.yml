@@ -1,0 +1,52 @@
+command:
+  name: menu
+  aliases:
+    - menuui
+  description: "Menu §aSurvi§bCraft"
+  usage: "/menus"
+
+form:
+  title: "§aSurvi§bCraft"
+  buttons:
+    Menu:
+      title: "Mundos"
+      command: "/menu"
+      image:
+        # use url, path, sin imagen es -> ~
+        type: "url"
+        path: "https://cdn.discordapp.com/attachments/1010239483750387714/1081750123798872194/Survicraft.png"
+    Minigames:
+      title: "Enchants"
+      command: "/eshop"
+      image:
+       # use url, path, sin imagen es -> ~
+        type: "url"
+        path: "https://cdn.discordapp.com/attachments/1010239483750387714/1081750123798872194/Survicraft.png"
+    shDop:
+      title: "Tinda"
+      command: "/shop"
+      image:
+        # use url, path, sin imagen es -> ~
+        type: "url"
+        path: "https://cdn.discordapp.com/attachments/1010239483750387714/1081750123798872194/Survicraft.png"
+    shoSsp:
+      title: "Minas"
+      command: "/minas"
+      image:
+        # use url, path, sin imagen es -> ~
+        type: "url"
+        path: "https://cdn.discordapp.com/attachments/1010239483750387714/1081750123798872194/Survicraft.png"
+    shSop:
+      title: "Reclaim"
+      command: "/reward"
+      image:
+        # use url, path, sin imagen es -> ~
+        type: "url"
+        path: "https://cdn.discordapp.com/attachments/1010239483750387714/1081750123798872194/Survicraft.png"
+    shFop:
+      title: "Sellui"
+      command: "/sellui"
+      image:
+        # use url, path, sin imagen es -> ~
+        type: "url"
+        path: "https://cdn.discordapp.com/attachments/1010239483750387714/1081750123798872194/Survicraft.png"

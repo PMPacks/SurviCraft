@@ -1,0 +1,9 @@
+---
+name: JoinEffect
+version: 1.0.1
+author: ItzAngel
+main: itzangel\TotemJoin\Loader
+description: join effect
+api:
+- 4.0.0
+...

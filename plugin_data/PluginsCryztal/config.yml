@@ -1,0 +1,153 @@
+#==============INFOTAGPLUGIN=================
+#============================================
+           #MESSAGES
+#Custom message when joining: 
+#Use "{PLAYER}" to display player name
+PlayerJoinMessage: "§8[§a+§8]§a {PLAYER} §l§aSHADOW §fMC"
+PlayerQuitMessage: "§8[§c-§8]§c {PLAYER} §l§aSHADOW §fMC"
+PlayerQuit: false
+QuitSound: false
+#******************************************#
+
+
+
+#============================================
+           #SOUNDS
+#******************************************#
+PlaySoundJoin: "mob.irongolem.hit"
+#******************************************#
+
+#******************************************#
+PlaySoundButton: "random.fizz"                                               
+#============================================
+          #TITLES - MESSAGES
+#******************************************#
+Join-Message: "§l§aBienvenido a §f『 §l§aSHADOW §fMC 』, §l§ggracias por unirte!"
+#******************************************#
+Join-Title: " §l§aSHADOW §fMC §6FACTIONS"
+#******************************************#
+Join-SubTitle: "§l§bBienvenid@ {PLAYER}"
+#============================================
+JoinUI-Title: " §l§aSHADOW §fMC "
+#******************************************#
+JoinUI-Content: "§eBienvenido a §f『 §l§aSHADOW §fMC 』 \n\n§e Esperamos que te guste!.\n\n§7Sigue las reglas del servidor. Si tienes algun reporte o duda no dudes consultandolo en nuestro discord:\n \n§chttps://discord.gg/F5TVbXXTWm\n"
+#******************************************#
+WarpJoinButton: "§l§gMUNDOS\n§r§7Vea las modalidades"
+#******************************************#
+JoinUI-Button: "§l§cJUGAR§r§7\nComienze a jugar"
+
+
+#============================================
+#=============BAZAARUIPLUGIN=================
+#============================================
+TitleBazaar: "§l§aSHADOW §fMC"
+#******************************************#
+
+ContentBazaar: "En este apartado puedes vender los minerales qeu conseguiste minando en §l§aSHADOW §fMC y ganar mucho dinero!!"
+
+#******************************************#
+
+BazaarButton1: "§eVender inventario"
+CommandButton1: "sell inv"
+
+#******************************************#
+
+BazaarButton2: "§eVender minerales"
+CommandButton2: "sell ores"
+
+#******************************************#
+
+BazaarButton3: "§eVender minerales en mano"
+CommandButton3: "sell hand"
+
+
+#============================================
+#=============BAZAARUIPLUGIN=================
+#============================================
+TitleBonus: "§l§aSHADOW §fMC"
+#******************************************#
+
+BonusButton1: "§l§0>>§bEnchant Shop"
+BonusCommand1: "eshop"
+
+#******************************************#
+
+BonusButton2: "§l§0>>§dEquipamientos"
+BonusCommand2: "kit"
+
+#******************************************#
+
+BonusButton3: "§l§0>>§aFactions Menu"
+BonusCommand3: "fui"
+
+#******************************************#
+
+BonusButton4: "§l§0>>§4Bonus §l§aSHADOW §fMC"
+BonusCommand4: "rewards"
+
+#******************************************#
+
+BonusButton5: "§l§0>>§gTradeos Completos"
+BonusCommand5: "ah"
+
+#******************************************#
+BonusButton6: "§l§0>>§5Tops Globales"
+BonusCommand6: "f top"
+
+
+#============================================
+#================CPSCOUNTER==================
+#============================================
+CpsFormat: "§gCPS:§r "
+
+
+#============================================
+#================WARPPLUGIN==================
+#============================================
+
+
+TitleForm-Warp: "§l§aSHADOW §fMC §eWarp"
+#******************************************#
+Title-Lobby: "§eLOBBY"
+SubTitle-Lobby: "§7Socializa pacificamente"
+TitleForm-Lobby: "§l§eLOBBY"
+ContentForm-Lobby: "§r§7En el lobby es sumamente importante que lleves una buena conducta de lo contrario estarias espuesto a una sancion estas seguro que quieres ir?"
+Button1-Lobby: "§l§aSI"
+Button2-Lobby: "§l§4NO"
+#******************************************#
+Title-Minapvp: "§4MINAPVP"
+SubTitle-Minapvp: "§7Guarda cautela y se pasciente"
+TitleForm-Minapvp: "§l§eMINAPVP"
+ContentForm-Minapvp: "§r§7En la minapvp podras encontrar minerales de buen valor pero estaras expuesto a que te asesinen estas seguro que quieres ir?"
+Button1-Minapvp: "§l§aSI"
+Button2-Minapvp: "§l§4NO"
+#******************************************#
+Title-Minasafe: "§gMINACOMUN"
+SubTitle-Minasafe: "§7Farmea tranquilo sin miedo"
+TitleForm-Minasafe: "§l§eMINACOMUN"
+ContentForm-Minasafe: "§r§7En la minacomun encontraras minerales de poco valor lo cual ara tu experiencia muy aburrida y cansada estas seguro que quieres ir?"
+Button1-Minasafe: "§l§aSI"
+Button2-Minasafe: "§l§4NO"
+#******************************************#
+Title-Minavip: "§bMINAVIP"
+SubTitle-Minavip: "§7Chetate sin parae"
+TitleForm-Minavip: "§l§eMINAVIP"
+ContentForm-Minavip: "§r§7En la minavip encontraras minerales de mucho valor tan valiosos que te aran rico en minutos estas seguro que quieres ir?"
+Button1-Minavip: "§l§aSI"
+Button2-Minavip: "§l§4NO"
+NoPermission-Minavip: "§cNo tienes permiso para ir a este mundo compra un rango"
+#******************************************#
+Title-Survival: "§aSURVIVAL"
+SubTitle-Survival: "§7Lucha contra tus enemigos"
+TitleForm-Survival: "§l§eSURVIVAL"
+ContentForm-Survival: "§r§7En survival podras luchas en un mundo completo muy parecido a vanilla pero estaras expuesto a ser raideado como a que tu puedas raidear estas seguro que quieres ir?"
+Button1-Survival: "§l§aSI"
+Button2-Survival: "§l§4NO"
+#******************************************#
+Button-Games: "§l§cGAMES\n§r§7Modalidades"
+Title-Game1: "§l§4FFA"
+SubTitle-Game1: "§r§7Lucha con todas tus fuerzas"
+Title-Game2: "§l§cBOSS"
+SubTitle-Game2: "§r§7Se rapido no te detengas"
+GamesButton1: "ffa join"
+GamesButton2: "mw tp ItzAngelzzYT {player}"

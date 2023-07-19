@@ -1,0 +1,13 @@
+name: Menu
+author: ItzAngelZzYT
+main: itz\Main
+version: 1
+api: 4.0.0
+commands:
+  menusc:
+    description: "Abrir el menu de Sc"
+    permission: cryztal.menu
+
+permissions:
+  cryztal.menu:
+   default: true

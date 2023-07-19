@@ -1,0 +1,42 @@
+---
+escondite:
+  X: 277.7001
+  "Y": 46
+  Z: 296.3
+  level: world
+  homeName: escondite
+  yaw: 8.59381103515625
+  pitch: 11.077438354492188
+Mina:
+  X: 30.0201
+  "Y": 56
+  Z: 245.5969
+  level: MinaSafe
+  homeName: Mina
+  yaw: 181.0679168701172
+  pitch: 11.854278564453125
+Base:
+  X: 1000000.5625
+  "Y": 250
+  Z: 1000000.5
+  level: world
+  homeName: Base
+  yaw: 135.19549560546875
+  pitch: 59.539642333984375
+sumo:
+  X: 100000.6563
+  "Y": 126.16539999999999
+  Z: 100000.7188
+  level: world
+  homeName: sumo
+  yaw: 162.47793579101562
+  pitch: 30.22210693359375
+kevin:
+  X: 1000001.75
+  "Y": 40
+  Z: 1000004.5
+  level: world
+  homeName: kevin
+  yaw: 136.7818603515625
+  pitch: 9.591720581054688
+...

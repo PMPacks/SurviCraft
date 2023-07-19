@@ -1,0 +1,27 @@
+---
+name: InvSee
+author: BlockHorizons
+main: BlockHorizons\InvSee\Loader
+api:
+- 4.0.0
+version: 2.0.1
+permissions:
+  invsee.inventory.view:
+    default: op
+    description: Allows viewing a player's inventory.
+  invsee.inventory.modify:
+    default: op
+    description: Allows modifying a player's inventory.
+  invsee.inventory.modify.self:
+    default: true
+    description: Allows modifying your own inventory.
+  invsee.enderinventory.view:
+    default: op
+    description: Allows viewing a player's ender inventory.
+  invsee.enderinventory.modify:
+    default: op
+    description: Allows modifying a player's ender inventory.
+  invsee.enderinventory.modify.self:
+    default: true
+    description: Allows modifying your own ender inventory.
+...

@@ -1,0 +1,20 @@
+---
+name: SpawnersCryztal
+main: Heisenburger69\BurgerSpawners\Main
+version: 1.0.2
+api: 4.0.0
+authors: [Heisenburger69, AGTHARN]
+description: Plugin implementing Every Mob and a Stackable Spawner System for PMMP4 <3
+
+permissions:
+  burgerspawners.command.spawner:
+    default: op
+    description: Allows a user to use Spawner command
+  burgerspawners.silktouch:
+    default: op
+    description: Allows a user to use SilkTouch on Spawners
+  burgerspawners.nosilktouch:
+    default: false
+    description: Allows a user to pickup Spawners even without Silk Touch
+
+...

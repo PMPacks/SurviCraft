@@ -1,0 +1,51 @@
+---
+# PureChat by 64FF00 and fernanACM 
+# (xktiverz@gmail.com, @64ff00 for Twitter)
+# PureChat version string
+# - string
+version: "2.0.0-ACM"
+# You can enable or disable this option for faction support
+# use "false" or "true"
+faction-support: false
+# Set default factions plugin for PureChat
+# - PiggyFactions / null
+default-factions-plugin: PiggyFactions
+
+# Enable this if you want to use per-world chat formats / per-world nametags for players
+# - true / false
+enable-multiworld-chat: false
+
+# Please check if you have all PurePerms groups in your server here
+
+# &0: Black, &1: Dark Blue, &2: Dark Green, &3: Dark Aqua, &4: Dark Red, &5: Dark Purple, &6: Gold, &7: Gray, &8: Dark Gray, &9: Blue
+# &a: Green, &b: Aqua, &c: Red, &d: Light Purple, &e: Yellow, &f: White
+# &k: Obfuscated, &l: Bold, &m: Strikethrough, &n: Underline, &o: Italic, &r: Reset
+
+# Available PureChat tags
+# {display_name} Get the player's username.
+# {msg} Get the player's message.
+# {prefix} Get PurePerms Prefix of the rank.
+# {suffix} Get the PurePerms Suffix of the rank.
+# {world} Get the PurePerms world the player is in.
+# PiggyFactions - prefix.
+# {fac_rank} Get the player's faction rank.
+# {fac_name} Get the player's faction name.
+
+groups:
+  Guest:
+    chat: '&7&l[GUEST]&r&c [§7{fac_name}§c]§f {display_name}'
+    nametag: '§l§7GUEST§r§c [§7{fac_name}§c] §f{display_name}§7:§7 {msg}'
+    worlds: []
+  Admin:
+    chat: '&l&aADMIN&r&c [§7{fac_name}§c]§f {display_name}§a»§f {msg}'
+    nametag: '&7&l[&aADMIN&7]&r&c [§7{fac_name}§c]§f {display_name}'
+    worlds: []
+  Owner:
+    chat: '&l&4OWNER&r&c [&7{fac_name}&c]&f {display_name}&4»&f {msg}'
+    nametag: '&l&7[&4OWNER&7]&r&c [§7{fac_name}§c]§f {display_name}'
+    worlds: []
+  ACM:
+    chat: '&l&bACM&r&c [&7{fac_name}&c]&f {display_name}&b»&e {msg}'
+    nametag: '&l&7[&bACM&7]&r&c [§7{fac_name}§c]§f {display_name}'
+    worlds: []
+...

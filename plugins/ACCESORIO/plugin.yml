@@ -1,0 +1,31 @@
+name: Accesorios
+main: fernanACM\Accesorios\Loader
+version: 1.0.0
+api: 4.0.0
+author: fernanACM
+
+commands:
+  ac:
+    description: "Accesorios para SurviCraft"
+    permission: ac.cmd
+    aliases: ["accesorios", "accesorio"]
+permissions:
+  ac.cmd:
+    default: op
+  
+  bruja.sombrero:
+    default: op
+  calavera.sombrero:
+    default: op
+  calabaza.sombrero:
+    default: op
+  luffy.sombrero:
+    default: op
+  gorra.sombrero:
+    default: op
+  angleblaze.alas:
+    default: op
+  angelred.alas: 
+    default: op
+  angelwhite.alas:
+    default: op

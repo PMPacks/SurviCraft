@@ -1,0 +1,29 @@
+#
+#   __      __                ___   ____        _  _____ _    _
+#   \ \    / /               |__ \ / __ \      (_)/ ____| |  (_)
+#    \ \  / /__ _ __ _ __ ___   ) | |  | |_   _ _| (___ | | ___
+#     \ \/ / _ \ '__| '__/ _ \ / /| |  | | | | | |\___ \| |/ / |
+#      \  /  __/ |  | | |  __// /_| |__| | |_| | |____) |   <| |
+#       \/ \___|_|  |_|  \___|____|\____/ \__,_|_|_____/|_|\_\_|
+#
+
+# Do you have a problem ?
+# 
+# Discord (en) : https://discord.gg/P8R4WhARrY
+# Discord (fr) : https://discord.gg/DnmRbAxMbN
+
+
+
+# Time in seconds
+cape_cooldown: 10
+# {cooldown}  Time remaining before set a new cape
+cooldown_message: "§cYou must wait {cooldown} seconds between every cape changed"
+# {cape}    The cape name
+cape_equiped_message: "You equiped {cape}"
+# {cape}    The cape name
+locked_cape_message: "You must unlock {cape} before use it"
+
+menu_title: "Capes list"
+menu_body: "There is some capes you can unlock and use !"
+
+  

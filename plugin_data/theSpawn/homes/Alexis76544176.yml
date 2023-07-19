@@ -1,0 +1,26 @@
+---
+clan:
+  X: 962.5321
+  "Y": 71
+  Z: 957.342
+  level: world
+  homeName: clan
+  yaw: 75.7435302734375
+  pitch: 60.598876953125
+bunker:
+  X: 1011.5319
+  "Y": 74
+  Z: 973.9293
+  level: world
+  homeName: bunker
+  yaw: 206.0487518310547
+  pitch: 89.89999389648438
+espia:
+  X: 964.3
+  "Y": 69
+  Z: 957.6691
+  level: world
+  homeName: espia
+  yaw: 251.67542266845703
+  pitch: 5.5892486572265625
+...

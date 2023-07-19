@@ -1,0 +1,60 @@
+#don't touch this
+version: 3
+
+# the command name. Don't change this or the command won't work.
+createkit:
+  # the command label is what the user types to execute the command. Add multiple ones for aliases. The first label will be the main label.
+  labels:
+    - "createkit"
+    - "makekit"
+    - "addkit"
+  # the description is what will appear next to the command in the command list.
+  description: "make a kit by fernanACM"
+  # the usage is how to execute the command. It is best to leave it like this.
+  usage: "/createkit [name]"
+
+kit:
+  labels:
+    - "kit"
+    - "ekit"
+  description: "claim a kit by fernanACM"
+  usage: "/kit [name]"
+
+deletekit:
+  labels:
+    - "deletekit"
+    - "delkit"
+    - "removekit"
+  description: "delete a kit by fernanACM"
+  usage: "/deletekit [name]"
+
+ekimport:
+  labels:
+    - "ekimport"
+    - "importkit"
+  description: "import kits from other plugins by fernanACM"
+  usage: "/ekimport [plugin]"
+
+editkit:
+  labels:
+    - "editkit"
+  description: "edit a kit by fernanACM"
+  usage: "/editkit [plugin]"
+
+createcategory:
+  labels:
+    - "createcategory"
+  description: "make a kit category by fernanACM"
+  usage: "/createcategory"
+
+deletecategory:
+  labels:
+    - "deletecategory"
+  description: "delete a kit category by fernanACM"
+  usage: "/deletecategory"
+
+givekit:
+  labels:
+    - "givekit"
+  description: "give a kit to someone by fernanACM"
+  usage: "/givekit [player] [kit]"

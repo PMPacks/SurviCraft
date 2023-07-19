@@ -1,0 +1,4 @@
+---
+cooldown: 3
+cooldown-message: '{RED}You must wait (time) seconds to chat again!'
+...

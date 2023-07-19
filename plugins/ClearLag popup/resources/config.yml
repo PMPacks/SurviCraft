@@ -1,0 +1,5 @@
+popup: "§f- le clearlagg sera éffectuer dans §l§4{time} §r§fsegonde -"
+
+chat: "§f[§l§4ClearLagg§r§f]: le clear lag viens de suprimer §l§4{count} §r§fitems"
+
+forceclear: "§f[§l§4ClearLagg§r§f]: le ClearLagg viens dêtre forcer par §l§4{player}"

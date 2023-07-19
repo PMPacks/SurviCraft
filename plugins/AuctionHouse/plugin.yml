@@ -1,0 +1,35 @@
+name: AuctionHouse
+main: shock95x\auctionhouse\AuctionHouse
+version: 2.0.2-ACM
+api: 4.0.0
+authors: [Shock95x, fernanACM]
+softdepend: [InvCrashFix, BedrockEconomy]
+virions: ["InvMenu", "libasynql", "await-generator", "UpdateNotifier", "Commando", "FormsUI"]
+permissions:
+    auctionhouse.command.shop:
+        default: true
+        description: Allows player to open the shop menu
+    auctionhouse.command.sell:
+        default: true
+        description: Allows player to list an item
+    auctionhouse.command.listings:
+        default: true
+        description: Allows player to view listings
+    auctionhouse.command.expired:
+        default: true
+        description: Allows player to view their expired listings
+    auctionhouse.command.category:
+        default: true
+        description: Allows player to open the category menu
+    auctionhouse.command.admin:
+        default: op
+        description: Allows player to open the admin menu
+    auctionhouse.command.reload:
+        default: op
+        description: Allows player to reload configuration files
+    auctionhouse.sign.shop:
+        default: op
+        description: Allows player to make AH shop sign
+    auctionhouse.sign.listings:
+        default: op
+        description: Allows player to make signs for their listings

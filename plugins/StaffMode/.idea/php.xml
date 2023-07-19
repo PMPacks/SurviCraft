@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$USER_HOME$/OneDrive/Documentos/BedrockProtocol-master" />
+      <path value="$USER_HOME$/OneDrive/Documentos/PocketMine-MP-4.8.0" />
+      <path value="$PROJECT_DIR$/../SimpleFactions" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="8.1" />
+</project>

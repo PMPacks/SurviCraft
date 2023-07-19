@@ -1,0 +1,28 @@
+#   ____           _     _                   ___   _                        ___   ____  
+#  | __ )    ___  | |_  | |_    ___   _ __  |_ _| | |_    ___   _ __ ___   |_ _| |  _ \ 
+#  |  _ \   / _ \ | __| | __|  / _ \ | '__|  | |  | __|  / _ \ | '_ ` _ \   | |  | | | |
+#  | |_) | |  __/ | |_  | |_  |  __/ | |     | |  | |_  |  __/ | | | | | |  | |  | |_| |
+#  |____/   \___|  \__|  \__|  \___| |_|    |___|  \__|  \___| |_| |_| |_| |___| |____/ 
+#         by fernanACM
+
+# The best ItemID for PocketMine-MP 4.0 servers. Special use for builders.
+# This plugin adds options to see the ID of the blocks in the game, you can 
+# customize their texts and sounds very easily through 'config.yml'. 
+# Page for the sounds of the game: https://www.digminecraft.com/lists/sound_list_pe.php
+
+# =======(SETTINGS)=======
+Settings:
+  # Use "true" or "false" to enable/disable tip-id
+  No-tip-itemid: true
+  # Use "true" or "false" to enable/disable the sound when executing the command.
+  Id-no-sound: true
+  # I put the name of the sound you like: example:
+  # Id-sound: "cauldron.adddye"
+  Id-sound: "random.burp"
+
+# =======(MESSAGES)=======
+Messages:
+  # Tip ID message
+  Tip-itemid: "§l§b»§r§f[§eITEM§f] §a{ID}§b:§a{META}§l§b«"
+  # Use '{LINE}' like 'enter' and use '{NAME}' to see the player's name.
+  Itemid: "§e=======(§bBetterItemID§e)======={LINE}§cHELLO: §f{NAME}{LINE}§aID: §b{ID}:{META}{LINE}§aBLOCK NAME: §b{BLOCK-NAME}{LINE}§e=========================="

@@ -1,0 +1,54 @@
+# _____  _____             _    _
+#|  ___||  ___|__ _   ___ | |_ (_)  ___   _ __
+#| |_   | |_  / _` | / __|| __|| | / _ \ | '_ \
+#|  _|  |  _|| (_| || (__ | |_ | || (_) || | | |
+#|_|    |_|   \__,_| \___| \__||_| \___/ |_| |_|
+#This plugin was made by Fan. All right reserved
+
+#PERMISSION:
+#- destroy nexus: nexus.destroy
+#- start nexus: nexus.start
+#Not configurable
+
+Nexus-Settings:
+  entity-name: "§l§6» §r§eNexusEvent"
+  entity-nametag: "§l§6» §r§eNexus  §c{health}§f/§4{max_health} HP"
+  entity-maxhealth: 2500
+  player-teleport: "-31:77:242:KITMAP"
+  Message:
+    nexus-spawn: "§l§6» §r§eLe nexus a spawn en §6{x}§e, §6{y}§e, §6{z} "
+    half-hp: "§l§6» §r§eNexus §6 HP §e est à la moitié §o§6 (50%)"
+    quarter-hp: "§l§6» §r§eNexus §6 HP §e est au quart §o§6 (25%)"
+    nexus-killed: "§l§6» §r§eLe nexus a été vaincu, la dernière attaque a été traitée par §6{player}"
+    teleport-succes: "§l§6» §r§eVous avez été téléporté avec succès"
+    no-permission: "You don't have permissions"
+    command-help: "§2--- Help Page for Nexus Plugin (/nexus help) ---§f\n/nexus (teleport to nexus)\n/nexus start (start nexus)\n/nexus destroy (destroy entity)\n/nexus info (info to developer and plugin)\n \n§2This plugin was made by Fanouu, join discord server -> discord.gg/JqNsjGXv6Y"
+    command-not-found: "§cCommand No't found !"
+    destroy-succes: "§l§6» §r§e Vous avez détruit le §6Nexus §eavec succès"
+    start-succes: "You have been succesfully started §cnexus"
+  AutoSpawn:
+    position: "-109:62:252:KITMAP"
+    #Auto Spawn time // in seconds
+    timer: 14400
+  Reward:
+    drop-height: 5.2
+    drop-distance: 0.7
+    #Id, Meta, Count (or) Id, Meta, Count, Enchantment Name, Enchantment Level
+    Item:
+      - "41, 0, 2" #No Enchant
+      - "41, 0, 2" #No Enchant
+      - "41, 0, 2" #No Enchant
+      - "41, 0, 2" #No Enchant
+      - "41, 0, 2" #No Enchant
+      - "41, 0, 2" #No Enchant
+      - "41, 0, 2" #No Enchant
+      - "41, 0, 2" #No Enchant
+      - "42, 0, 1" #No Enchant
+      - "42, 0, 1" #No Enchant
+      - "42, 0, 1" #No Enchant
+      - "42, 0, 1" #No Enchant
+      - "283, 0, 1, sharpness, 5" #With Enchant Sharpness
+      - "314, 0, 1, protection, 4"
+      - "315, 0, 1, protection, 4"
+      - "316, 0, 1, protection, 4"
+      - "317, 0, 1, protection, 4"

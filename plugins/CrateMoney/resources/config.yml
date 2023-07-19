@@ -1,0 +1,68 @@
+crates:
+  mystery:
+    item:
+      name: "§a§lSurvi§bCraft §eMoney Crate"
+      id: 138
+      lore:
+        - "  "
+        - "&7Haga clic derecho aquí para"
+        - "&7iniciar el proceso de apertura"
+        - "&7la nueva Money Crate para"
+        - "&7gana algunos de los mejores botines en SC!"
+        - " "
+        - "§eDisponible para comprar en §9discord.gg/F5TVbXXTWm"
+    bonus-rewards:
+      1:
+        id: 339
+        name: "&ex2 DINERO"
+        command: "givemoney {player} 1000"
+      2:
+        id: 339
+        name: "&ex1 DINERO"
+        command: "givemoney {player} 200"
+      3:
+        id: 339
+        name: "&ex3 DINERO"
+        command: "givemoney {player} 287"
+
+    rewards:
+      1:
+        id: 339
+        name: "&ex6 DINERO"
+        command: "givemoney {player} 987"
+      2:
+        id: 339
+        name: "&ex4 DINERO"
+        command: " {player} 7823"
+      3:
+        id: 339
+        name: "&ex8 DINERO"
+        command: "givemoney {player} 62"
+      4:
+        id: 339
+        name: "&ex9 DINERO"
+        command: "givemoney {player} 878"
+      5:
+        id: 339
+        name: "&ex4 DINERO"
+        command: "givemoney {player} 325"
+      6:
+        id: 339
+        name: "&ex2 DINERO"
+        command: "givemoney {player} 475"
+      7:
+        id: 339
+        name: "&ex1 DINERO"
+        command: "givemoney {player} 75"
+      8:
+        id: 339
+        name: "&ex6 DINERO"
+        command: "givemoney {player} 333"
+      9:
+        id: 339
+        name: "&ex3 DINERO"
+        command: "givemoney {player} 725"
+      10:
+        id: 339
+        name: "&ex1 DINERO"
+        command: "givemoney {player} 647"

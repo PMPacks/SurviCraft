@@ -1,0 +1,13 @@
+#minimo de CPS(Clicks) para enviar alertas
+min-cps: "17"
+#maximo de CPS(Clicks) para enviar alertas
+max-cps: "30"
+#maximo de CPS(Clicks) para banear al jugador
+max-cps-ban: "35"
+#minimo de reach(Distancia en la que pega) para enviar alertas
+min-reach: "7.5"
+#weebhook donde mandara las alertas
+discord-weebhook: "https://discord.com/api/webhooks/1001411818905948232/NAtb3ikUsEgIfIAgreYjdFcOhHMMNoMon_1Sl1F2cYfeYc4jiS_1wg5Bsb6mO2VPiNIu"
+
+#Nota
+#Debes darles el permiso "cps.alerts" a tus staffs para que vean las alertas in game

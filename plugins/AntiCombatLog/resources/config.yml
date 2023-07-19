@@ -1,0 +1,21 @@
+# The amount of time in seconds that the player is in combat for
+CombatTime: 10
+
+# If true, the player will be killed when they log out if they are in combat
+KillOnLogout: true
+
+EnterCombatMsg: "§8[§e?§8] §7Entraste en combate, no te salgas o moriras"
+ExitCombatMsg: "§8[§a!§8] §7acabas de salir de combate"
+BannedCommandMsg: "§8[§c!§8] §7 No Puedes ejecutar este comando en pvp"
+
+# If true, players in combat will not be able to execute any commands
+BanAllCommands: true
+
+# The commands banned for players in combat (Not important if "BanAllCommands" = true)
+BannedCommands:
+  - spawn
+  - home
+  - tpa
+  - tp
+  - warp
+  - wild

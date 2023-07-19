@@ -1,0 +1,220 @@
+#don't touch this
+version: 9
+
+## put false instead of a message to disable
+# messages
+
+sender-not-player: "§l§4> §r§7sender needs to be a player"
+
+# this appears when trying to claim a kit with a cost when no compatible economy plugin is found
+no-economy: "§c§l> §r§7There is no economy installed."
+
+unknown-exception: "§c§l> §r§7There was an unknown exception."
+
+coming-soon: "§c§l> §r§7This feature is coming soon."
+
+# chestkit item
+chestkit-name: "§r§a{NAME}§r§7 kit"
+chestkit-lore:
+  - "§r§7Tap with this item in your hand to equip this kit."
+
+# /createkit UI + messages
+createkit-title: "§0Kit creation menu"
+createkit-text: "§7When making a kit, all the items in your inventory will be added to the kit. Make sure you have the correct items before you submit the kit. After you created the kit, you can edit additional settings with /editkit"
+createkit-kitname: "§e§l> §rKit name"
+createkit-permission: "§e§l> §rKit permission §7(easykits.kit.<perm>)"
+createkit-permission-tip: "leave blank to use name as permission"
+createkit-price: "§e§l> §rPrice §7(0 for no price)"
+createkit-cooldown: "§e§l> §rCooldown §7(in seconds)"
+createkit-category: "§e§l> §rCategory" # only shows when categories are enabled
+createkit-flags: "§e§l> §rFlags"
+createkit-lockedToggle: "locked §7(= permission required)"
+createkit-emptyOnClaimToggle: "emptyOnClaim"
+createkit-doOverrideToggle: "doOverrideItems"
+createkit-doOverrideArmorToggle: "doOverrideArmor"
+createkit-alwaysClaimToggle: "alwaysClaim"
+createkit-chestKitToggle: "chestKit"
+
+createkit-cancelled: "§c§l> §r§7Kit creation cancelled."
+createkit-no-name: "§c§l> §r§7Please enter a name for your kit."
+createkit-duplicate: "§c§l> §r§7A kit with that name already exists."
+createkit-empty-inventory: "§c§l> §r§7You need to hold items in your inventory to create a kit with."
+createkit-invalid-price: "§c§l> §r§7Please enter a valid price."
+createkit-invalid-cooldown: "§c§l> §r§7Please enter a valid cooldown time."
+createkit-invalid-category: "§c§l> §r§7The selected category does not exist."
+
+createkit-success: "§a§l> §r§7A kit with name§a {NAME} §r§7has been created!"
+
+# /deletekit UI + messages
+deletekit-title: "§0Kit deletion menu"
+deletekit-text: "§7Please select the kit you want to delete and comfirm it by submitting."
+deletekit-select: "§e§l> §rSelect kit"
+
+deletekit-cancelled: "§c§l> §r§7Kit deletion cancelled."
+deletekit-empty: "§c§l> §r§7Please select a kit to delete."
+deletekit-not-found: "§c§l> §r§7Selected kit not found."
+deletekit-none-available: "§c§l> §r§7There are no available kits."
+
+deletekit-success: "§a§l> §r§7Successfully deleted kit §a{NAME}§r§7."
+
+# /kit UI + messages
+kit-title: "§OKit selection menu"
+kit-text: false #this is optional
+kit-available-free-format: "{NAME}\n§aUnlocked"
+kit-available-priced-format: "{NAME}\n§6${PRICE}"
+kit-cooldown-format: "{NAME}\n§c{COOLDOWN}"
+kit-locked-format: "{NAME}\n§cLocked" # only shows when enabled in config
+
+kit-list: "§e§l> §r§7Available kits: §f{KITS}" # when UI is turned off
+
+kit-none-available: "§c§l> §r§7There are no available kits."
+kit-no-permission: "§c§l> §r§7You don't have permission to claim this kit."
+kit-not-found: "§c§l> §r§7A kit with that name does not exist."
+kit-insufficient-funds: "§c§l> §r§7You have insufficient funds to claim this kit."
+kit-insufficient-space: "§c§l> §r§7You don't have enough inventory space to claim this kit."
+kit-cooldown-active: "§c§l> §r§7You can't claim this kit for another §c{TIME}§7."
+
+kit-claim-success: "§a§l> §r§7Claimed kit §a{NAME}§r§7."
+
+# Kit interact claiming
+chestclaim-success: "§a§l> §r§7Equipped kit §a{NAME}§r§7."
+
+# /ekimport UI + messages
+ekimport-title: "§oKit importing menu"
+ekimport-text: "§7Please select a plugin to import kits from"
+ekimport-select: "§e§l> §rSelect plugin"
+
+ekimport-cancelled: "§c§l> §r§7Kit importing cancelled."
+ekimport-not-loaded: "§c§l> §r§7Selected plugin not loaded."
+
+ekimport-success: "§a§l> §r§7Import from §a{PLUGIN} §7succeeded. §a{SUCCESS} §7success, §a{FAILED} §7failed."
+
+# /editkit UI + messages
+editkit-title: "§r§oKit edit menu"
+editkit-select-text: "§7Please select a kit you want to edit."
+editkit-select: "§e§l> §rSelect kit"
+
+editkit-cancelled: "§c§l> §r§7Kit edit menu closed."
+editkit-empty: "§c§l> §r§7Please select a kit to edit."
+editkit-not-found: "§c§l> §r§7Selected kit not found."
+editkit-none-available: "§c§l> §r§7There are no available kits."
+
+editkit-success: "§a§l> §r§7Successfully edited kit §a{NAME}§r§7."
+
+editkit-main-text: "§7You are editing kit §f{NAME}§7. Please select an option to edit."
+editkit-edit-general: "§e§l> §rGeneral settings §e§l<"
+editkit-edit-categories: "§e§l> §rKit categories §e§l<"
+editkit-edit-items: "§e§l> §rKit items §e§l<"
+editkit-edit-potions: "§e§l> §rPotion effects §e§l<"
+editkit-edit-commands: "§e§l> §rCommands §e§l<"
+editkit-edit-effects: "§e§l> §rClaim effects §e§l<"
+
+editkit-general-text: "§7You are editing general kit settings."
+editkit-general-kitname: "§e§l> §rkit name"
+editkit-general-permission: "§e§l> §rKit permission §7(easykits.kit.<perm>)"
+editkit-general-price: "§e§l> §rPrice §7(0 for no price)"
+editkit-general-cooldown: "§e§l> §rCooldown §7(in seconds)"
+editkit-general-flags: "§e§l> §rFlags"
+editkit-general-lockedToggle: "locked §7(= permission required)"
+editkit-general-emptyOnClaimToggle: "emptyOnClaim"
+editkit-general-doOverrideToggle: "doOverrideItems"
+editkit-general-doOverrideArmorToggle: "doOverrideArmor"
+editkit-general-alwaysClaimToggle: "alwaysClaim"
+editkit-general-chestKitToggle: "chestKit"
+
+editkit-general-no-name: "§c§l> §r§7Please enter a name for your kit."
+editkit-general-invalid-price: "§c§l> §r§7Please enter a valid price."
+editkit-general-invalid-cooldown: "§c§l> §r§7Please enter a valid cooldown time."
+editkit-general-duplicate: "§c§l> §r§7A kit with that name already exists."
+
+editkit-potionselect-text: "§7Please select a potion to edit."
+editkit-potionselect-button: "§e§l> §r{POTION} §e§l<"
+
+editkit-potion-text: "§7Editing potion §f{POTION} §7for kit §f{NAME}§7."
+editkit-potion-toggle: "enabled"
+editkit-potion-duration: "§e§l> §rDuration §7(in seconds)"
+editkit-potion-amplifier: "§e§l> §rAmplifier"
+
+editkit-potion-invalid-duration: "§c§l> §r§7Please enter a valid duration."
+editkit-potion-invalid-amplifier: "§c§l> §r§7Please enter a valid amplifier."
+
+editkit-potion-success-removed: "§a§l> §r§7Successfully removed §a{POTION}§7 from kit §a{NAME}§r§7."
+editkit-potion-success-added: "§a§l> §r§7Successfully added §a{POTION}§7 to kit §a{NAME}§r§7."
+
+editkit-commands-text: "§7Editing commands for kit §f{NAME}§7. Use variable {PLAYER} for the player's real name and {NICK} for the player's display name."
+editkit-commands-input: "§e§l> §rCommand #{NUMBER}"
+
+editkit-commands-success: "§a§l> §r§7Successfully set §a{COUNT} §7commands in kit §a{NAME}§r§7."
+
+editkit-items-title: "§6§l> §rEditing §6{NAME}§r kit items"
+editkit-items-lockedname: "§4§lx" # name of the items in locked slots
+
+editkit-items-boots: "§4Boots"
+editkit-items-leggings: "§4Leggings"
+editkit-items-chestplate: "§4Chestplate"
+editkit-items-helmet: "§4Helmet"
+
+editkit-items-succes: "§a§l> §r§7Successfully set §a{COUNT} §7items in kit §a{NAME}§r§7."
+
+editkit-category-text: "§7You are editing kit category settings settings."
+editkit-category-categories: "§e§l> §rCategories"
+editkit-category-format: "§6{NAME}§r category"
+
+editkit-category-success: "§a§l> §r§7Successfully added kit §a{NAME}§r§7 to §a{ADDED}§r§7 categories and removed it from §a{REMOVED}§r§7 categories."
+
+# category stuff
+category-select-title: "§OCategory selection menu"
+category-select-text: false #this is optional
+category-unlocked-format: "{NAME}\n§aUnlocked"
+category-locked-format: "{NAME}\n§cLocked"
+
+category-no-permission: "§c§l> §r§7You don't have permission to view this category."
+category-not-found: "§c§l> §r§7A category with that name does not exist."
+category-empty: "§c§l> §r§7This category is empty."
+no-categories: "§c§l> §r§7You don't have permission to view any categories."
+
+category-title: "§6{NAME} §r§0category"
+category-text: false
+
+# /createcategory UI + messages
+createcategory-title: "§0Category creation menu"
+createcategory-text: "§7Please enter the settings for your category. Afterwards you can add kits in the kit edit menu."
+createcategory-name: "§e§l> §rCategory name"
+createcategory-flags: "§e§l> §rFlags"
+createcategory-lockedToggle: "locked §7(= permission required)"
+
+createcategory-cancelled: "§c§l> §r§7Category creation cancelled."
+createcategory-no-name: "§c§l> §r§7Please enter a name for your category."
+createcategory-duplicate: "§c§l> §r§7A category with that name already exists."
+
+createcategory-success: "§a§l> §r§7A category with name§a {NAME} §r§7has been created!"
+
+# /deletecategory UI + messages
+deletecategory-title: "§0Category deletion menu"
+deletecategory-text: "§7Please select the category you want to delete and comfirm it by submitting."
+deletecategory-select: "§e§l> §rSelect category"
+
+deletecategory-cancelled: "§c§l> §r§7Category deletion cancelled."
+deletecategory-empty: "§c§l> §r§7Please select a category to delete."
+deletecategory-not-found: "§c§l> §r§7Selected category not found."
+deletecategory-none-available: "§c§l> §r§7There are no available categories."
+
+deletecategory-success: "§a§l> §r§7Successfully deleted category §a{NAME}§r§7."
+
+# /givekit UI + messages
+givekit-title: "§oKit give menu"
+givekit-playerselect-text: "§7Please select a player to give a kit to."
+givekit-playerselect-format: "{PLAYER}"
+givekit-kitselect-text: "§7Please select a kit to give to the selected player."
+givekit-kitselect-format: "{NAME}"
+
+## Messages for /givekit that show when the sender isn't a player (=console)
+givekit-missing-argument-0: "§c§l> §r§7Please enter a player to give a kit to."
+givekit-missing-argument-1: "§c§l> §r§7Please enter a kit to give to the target player."
+
+givekit-insufficient-space: "§c§l> §r§7The target player has insufficient space."
+givekit-player-not-found: "§c§l> §r§7The selected player was not found."
+givekit-kit-not-found: "§c§l> §r§7The selected kit was not found."
+givekit-cancelled: "§c§l> §r§7Kit giving cancelled."
+
+givekit-success: "§a§l> §r§7Successfully gave kit §a{KIT}§r§7 to §a{PLAYER}§r§7."

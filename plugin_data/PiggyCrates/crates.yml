@@ -1,0 +1,348 @@
+crates:
+  Common:
+    drops:
+      - id: 310
+        meta: 0
+        amount: 1
+        chance: 
+        name: "§4Casco Common"
+        enchantments:
+          - name: "protection"
+            level: 1
+          - name: "unbreaking"
+            level: 1
+          - name: "fire_protection"
+            level: 1
+      - id: 311
+        meta: 0
+        amount: 1
+        chance: 
+        name: "§4Pechera Common"
+        enchantments:
+          - name: "protection"
+            level: 1
+          - name: "unbreaking"
+            level: 1
+          - name: "fire_protection"
+            level: 1
+      - id: 312
+        meta: 0
+        amount: 1
+        chance: 
+        name: "§4Pantalon Common"
+        enchantments:
+          - name: "protection"
+            level: 1
+          - name: "unbreaking"
+            level: 1
+          - name: "fire_protection"
+            level: 1
+      - id: 313
+        meta: 0
+        amount: 1
+        chance: 
+        name: "§4Botas Common"
+        enchantments:
+          - name: "protection"
+            level: 1
+          - name: "unbreaking"
+            level: 1
+          - name: "fire_protection"
+            level: 1
+      - id: 276
+        meta: 0
+        amount: 1
+        chance: 
+        name: "§4Espada Common"
+        enchantments:
+          - name: "sharpness"
+            level: 2
+      - id: 322
+        meta: 0
+        amount: 6
+        chance: 
+      - id: 368
+        meta: 0
+        amount: 4
+        chance: 
+      - id: 41
+        meta: 0
+        amount: 8
+        chance: 
+      - id: 42
+        meta: 0
+        amount: 8
+        chance: 
+      - id: 152
+        meta: 0
+        amount: 8
+        chance: 
+    amount: 1
+    commands: [""]
+    floating-text: "§4Common §rCrate"
+  UnCommon:
+    drops:
+      - id: 310
+        meta: 0
+        amount: 1
+        chance: 
+        name: "§6Casco UnCommon"
+        enchantments:
+          - name: "protection"
+            level: 2
+          - name: "unbreaking"
+            level: 1
+          - name: "fire_protection"
+            level: 1
+      - id: 311
+        meta: 0
+        amount: 1
+        chance: 
+        name: "§6Pechera UnCommon"
+        enchantments:
+          - name: "protection"
+            level: 2
+          - name: "unbreaking"
+            level: 1
+          - name: "fire_protection"
+            level: 1
+      - id: 312
+        meta: 0
+        amount: 1
+        chance: 
+        name: "§6Pantalon UnCommon"
+        enchantments:
+          - name: "protection"
+            level: 2
+          - name: "unbreaking"
+            level: 1
+          - name: "fire_protection"
+            level: 1
+      - id: 313
+        meta: 0
+        amount: 1
+        chance: 
+        name: "§6Botas UnCommon"
+        enchantments:
+          - name: "protection"
+            level: 2
+          - name: "unbreaking"
+            level: 1
+          - name: "fire_protection"
+            level: 1
+      - id: 276
+        meta: 0
+        amount: 1
+        chance: 
+        name: "§6Espada UnCommon"
+        enchantments:
+          - name: "sharpness"
+            level: 2
+          - name: "fire_aspect"
+            level: 1
+      - id: 270
+        meta: 0
+        amount: 1
+        chance: 
+        name: "§6Taladro 3,000"
+        enchantments:
+          - name: "efficiency"
+            level: 8
+          - name: "unbreaking"
+            level: 10
+      - id: 322
+        meta: 0
+        amount: 12
+        chance: 0
+      - id: 368
+        meta: 0
+        amount: 8
+        chance: 
+      - id: 41
+        meta: 0
+        amount: 16
+        chance: 
+      - id: 42
+        meta: 0
+        amount: 16
+        chance: 
+      - id: 152
+        meta: 0
+        amount: 16
+        chance: 
+    amount: 1
+    commands: [""]
+    floating-text: "§6UnCommon §rCrate"
+  Mhytic:
+    drops:
+      - id: 310
+        meta: 0
+        amount: 1
+        chance: 
+        name: "§eCasco Mhytic"
+        enchantments:
+          - name: "protection"
+            level: 6
+          - name: "unbreaking"
+            level: 6
+          - name: "fire_protection"
+            level: 6
+      - id: 311
+        meta: 0
+        amount: 1
+        chance: 
+        name: "§ePechera Mhytic"
+        enchantments:
+          - name: "protection"
+            level: 6
+          - name: "unbreaking"
+            level: 6
+          - name: "fire_protection"
+            level: 6
+      - id: 41
+        meta: 0
+        amount: 32
+        chance: 
+      - id: 42
+        meta: 0
+        amount: 32
+        chance: 
+      - id: 57
+        meta: 0
+        amount: 32
+        chance: 
+      - id: 368
+        meta: 0
+        amount: 16
+        chance: 
+      - id: 466
+        meta: 0
+        amount: 3
+        chance: 
+      - id: 322
+        meta: 0
+        amount: 24
+        chance: 
+      - id: 384
+        meta: 0
+        amount: 64
+        chance: 
+    amount: 1
+    commands: [""]
+    floating-text: "§eMhytic §rCrate"
+  Legend:
+    drops:
+      - id: 312
+        meta: 0
+        amount: 1
+        chance: 12
+        name: "§6Pantalon Legend"
+        enchantments:
+          - name: "protection"
+            level: 6
+          - name: "unbreaking"
+            level: 6
+          - name: "fire_protection"
+            level: 6
+      - id: 313
+        meta: 0
+        amount: 1
+        chance: 12
+        name: "§6Botas Legend"
+        enchantments:
+          - name: "protection"
+            level: 6
+          - name: "unbreaking"
+            level: 6
+          - name: "fire_aspect"
+            level: 6
+      - id: 276
+        meta: 0
+        amount: 1
+        chance: 4
+        name: "§6Espada Legend"
+        enchantments:
+          - name: "sharpness"
+            level: 6
+          - name: "fire_aspect"
+            level: 6
+          - name: "unbreaking"
+            level: 6
+      - id: 466
+        meta: 0
+        amount: 5
+        chance: 12
+      - id: 322
+        meta: 0
+        amount: 32
+        chance: 12
+      - id: 432
+        meta: 0
+        amount: 8
+        chance: 12
+      - id: 444
+        meta: 0
+        amount: 1
+        chance: 12
+      - id: 450
+        meta: 0
+        amount: 1
+        chance: 12
+    amount: 1
+    commands: [""]
+    floating-text: "§6Legend §rCrate"
+  Blaze:
+    drops:
+      - id: 311
+        meta: 0
+        amount: 1
+        chance: 18
+        name: "Pechera§4 Glitch "
+        enchantments:
+          - name: "protection"
+            level: 8
+          - name: "fire_protection"
+            level: 8
+          - name: "unbreaking"
+            level: 8
+      - id: 313
+        meta: 0
+        amount: 1
+        chance: 18
+        name: "Botas§4 Glitch "
+        enchantments:
+          - name: "protection"
+            level: 8
+          - name: "fire_protection"
+            level: 8
+          - name: "unbreaking"
+            level: 8
+      - id: 278
+        meta: 0
+        amount: 1
+        chance: 18
+        name: "Pico§4 Glitch "
+        enchantments:
+          - name: "sharpness"
+            level: 8
+          - name: "unbreaking"
+            level: 8
+      - id: 322
+        meta: 0
+        amount: 64
+        chance: 18
+      - id: 466
+        meta: 0
+        amount: 16
+        chance: 5
+      - id: 138
+        meta: 0
+        amount: 1
+        chance : 18
+      - id: 445
+        meta: 0
+        amount: 1
+        chance: 5
+    amount: 1
+    commands: [""]
+    floating-text: "§4Bla§1ze§r Crate"

@@ -1,0 +1,39 @@
+name: Particulas
+main: fernanACM\Particulas\Loader
+version: 1.0.0-ACM
+api: 4.0.0
+author: fernanACM
+
+commands:
+  particulas:
+    description: "Particulas"
+    permission: particulas.cmd
+  trails:
+    description: "Particulas"
+    permission: trails.cmd
+
+permissions:
+  particulas.cmd:
+    default: op
+  trails.cmd:
+    default: op
+  particulas.flame:
+    default: op
+  particulas.hearth:
+    default: op
+  particulas.angry:
+    default: op
+  particulas.lava:
+    default: op
+  particulas.redstone:
+    default: op
+  particulas.rojo:
+    default: op
+  particulas.azul:
+    default: op
+  particulas.amarillo:
+    default: op
+  particulas.verde:
+    default: op
+  particulas.cian:
+    default: op

@@ -1,0 +1,18 @@
+---
+Casa:
+  X: 5417.3579
+  "Y": 66
+  Z: 3108.6104
+  level: world
+  homeName: Casa
+  yaw: 116.39697265625
+  pitch: 18.557113647460938
+arena:
+  X: 2028.3
+  "Y": 67
+  Z: 9785.5068
+  level: world
+  homeName: arena
+  yaw: 154.44503784179688
+  pitch: 18.104324340820312
+...

@@ -1,0 +1,140 @@
+#  ____                           _          _   _   ___ 
+# |  _ \    ___   _ __     __ _  (_)  _ __  | | | | |_ _|
+# | |_) |  / _ \ | '_ \   / _` | | | | '__| | | | |  | | 
+# |  _ <  |  __/ | |_) | | (_| | | | | |    | |_| |  | | 
+# |_| \_\  \___| | .__/   \__,_| |_| |_|     \___/  |___|
+#                |_|                                     
+#   Copyright [2022-2022] [fernanACM]
+
+#   Licensed under the Apache License, Version 2.0 (the "License");
+#   you may not use this file except in compliance with the License.
+#   You may obtain a copy of the License at
+
+#       http://www.apache.org/licenses/LICENSE-2.0
+
+#   Unless required by applicable law or agreed to in writing, software
+#   distributed under the License is distributed on an "AS IS" BASIS,
+#   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+#   See the License for the specific language governing permissions and
+#   limitations under the License.
+
+# Repair and customize your item names with RepairUI, for PocketMine-MP 4.0 servers
+
+# ======(KEYS)======
+# "{LINE}" => "\n",
+# "{NAME}" => $player->getName(),
+# Colors
+# "{BLACK}" => TextFormat::BLACK,
+# "{DARK_BLUE}" => TextFormat::DARK_BLUE,
+# "{DARK_GREEN}" => TextFormat::DARK_GREEN,
+# "{CYAN}" => TextFormat::DARK_AQUA,
+# "{DARK_RED}" => TextFormat::DARK_RED,
+# "{PURPLE}" => TextFormat::DARK_PURPLE,
+# "{GOLD}" => TextFormat::GOLD,
+# "{GRAY}" => TextFormat::GRAY,
+# "{DARK_GRAY}" => TextFormat::DARK_GRAY,
+# "{BLUE}" => TextFormat::BLUE,
+# "{GREEN}" => TextFormat::GREEN,
+# "{AQUA}" => TextFormat::AQUA,
+# "{RED}" => TextFormat::RED,
+# "{PINK}" => TextFormat::LIGHT_PURPLE,
+# "{YELLOW}" => TextFormat::YELLOW,
+# "{WHITE}" => TextFormat::WHITE,
+# "{ORANGE}" => "§6"
+# "{BOLD}" => TextFormat::BOLD,
+# "{RESET}" => TextFormat::RESET
+
+# Prefix
+Prefix: "{BOLD}[{PINK}RepairUI{WHITE}]{DARK_GRAY}»{RESET} "
+
+Forms:
+  RepairMenu:
+    title: "{BOLD}{PINK}RepairUI"
+    content: "{YELLOW}Select your preferred option:"
+    button-repair: "{BOLD}{DARK_GREEN}REPAIR{RESET}{LINE}{BLACK}Click"
+    button-rename: "{BOLD}{DARK_GREEN}RENAME{RESET}{LINE}{BLACK}Click"
+    button-lore: "{BOLD}{DARK_GREEN}LORE{RESET}{LINE}{BLACK}Click"
+    button-exit: "{BOLD}{DARK_RED}CLOSE MENU{RESET}{LINE}{BLACK}Click"
+
+  RepairMoney:
+    title: "{BOLD}{PINK}RepairUI{RESET} {GREEN}-{BOLD}{RED} REPAIR-MONEY"
+    # Use the keys: {BALANCE} to check your experience and {COST} to see the price of the product, {DAMAGE} to see the damage of the item and {TOTAL} to check the total price
+    content: "{AQUA}»Here you can repair with your items with your money.{LINE}{YELLOW}»My money: {GREEN}{BALANCE}{LINE}{YELLOW}»Price per damage: {AQUA}{COST}{LINE}{YELLOW}»Damage: {RED}{DAMAGE}{LINE}{RED}»Taxes: {GREEN}{TOTAL}"
+    button-repair: "{CYAN}Repair your item{LINE}{BLACK}Click"
+    button-back: "{DARK_RED}TO RETURN{LINE}{BLACK}Click"
+
+  RepairXP:
+    title: "{BOLD}{PINK}RepairUI{RESET} {GREEN}-{BOLD}{RED} REPAIR-XP"
+    # Use the keys: {XP} to check your experience and {COST} to see the price of the product, {DAMAGE} to see the damage of the item and {TOTAL} to check the total price
+    content: "{AQUA}»Here you can repair with your items with your experience.{LINE}{YELLOW}»My experience: {GREEN}{XP}{LINE}{YELLOW}»Price per damage: {AQUA}{COST}{LINE}{YELLOW}»Damage: {RED}{DAMAGE}{LINE}{RED}»Taxes: {GREEN}{TOTAL}"
+    button-repair: "{CYAN}Repair your item{LINE}{BLACK}Click"
+    button-back: "{DARK_RED}TO RETURN{LINE}{BLACK}Click"
+  RenameMoney:
+    title: "{BOLD}{PINK}RepairUI{RESET} {GREEN}-{BOLD}{RED} RENAME-MONEY"
+    # Use the keys: {BALANCE} to check your money, and {COST} to see the price of the product.
+    content: "{AQUA}»Here you can change the name of your items with your money.{LINE}{YELLOW}»My money: {GREEN}{BALANCE}{LINE}{YELLOW}»Rename cost: {AQUA}{COST}"
+    input1: "Write a name for your item"
+    input2: "Example: SuperPro"
+
+  RenameXP:
+    title: "{BOLD}{PINK}RepairUI{RESET} {GREEN}-{BOLD}{RED} RENAME-XP"
+    # Use the keys: {XP} to check your experience, and {COST} to see the price of the product.
+    content: "{AQUA}»Here you can change the name of your items with your experience.{LINE}{YELLOW}»My experience: {GREEN}{XP}{LINE}{YELLOW}»Rename cost: {AQUA}{COST}"
+    input1: "Write a name for your item"
+    input2: "Example: SuperSIPE"
+  
+  LoreMoney:
+    title: "{BOLD}{PINK}RepairUI{RESET} {GREEN}-{BOLD}{RED} LORE-MONEY"
+    # Use the keys: {BALANCE} to check your money, and {COST} to see the price of the product.
+    content: "{AQUA}»Here you can change the lore name of your items with your money.{LINE}{YELLOW}»My money: {GREEN}{BALANCE}{LINE}{YELLOW}»Lore cost: {AQUA}{COST}"
+    input1: "Write the name of the lore for your item"
+    input2: "Example: JonatanSipe"
+
+  LoreXP:
+    title: "{BOLD}{PINK}RepairUI {RESET} {GREEN}-{BOLD}{RED} LORE-XP"
+    # Use the keys: {XP} to check your experience, and {COST} to see the price of the product.
+    content: "{AQUA}»Here you can change the lore name of your items with your experience{LINE}{YELLOW}»My experience: {GREEN}{XP}{LINE}{YELLOW}»Lore cost: {AQUA}{COST}"
+    input1: "Write the name of the lore for your item"
+    input2: "Example: Nope or sipe"
+
+  CostForm:
+    Repair:
+      title: "{BOLD}{PINK}RepairUI{RESET} {GREEN}-{BOLD}{RED} REPAIR"
+      content: "{YELLOW}Select your preferred option:"
+      button-money: "{BOLD}{BLUE}REPAIR MONEY{RESET}{LINE}{BLACK}Click"
+      button-xp: "{BOLD}{BLUE}REPAIR XP{RESET}{LINE}{BLACK}Click"
+      button-back: "{BOLD}{DARK_RED}TO RETURN{RESET}{LINE}{BLACK}Click"
+    Rename:
+      title: "{BOLD}{PINK}RepairUI{RESET} {GREEN}-{BOLD}{RED} RENAME"
+      content: "{YELLOW}Select your preferred option:"
+      button-money: "{BOLD}{BLUE}RENAME MONEY{RESET}{LINE}{BLACK}Click"
+      button-xp: "{BOLD}{BLUE}RENAME XP{RESET}{LINE}{BLACK}Click"
+      button-back: "{BOLD}{DARK_RED}TO RETURN{RESET}{LINE}{BLACK}Click"
+    Lore:
+      title: "{BOLD}{PINK}RepairUI{RESET} {GREEN}-{BOLD}{RED} LORE"
+      content: "{YELLOW}Select your preferred option:"
+      button-money: "{BOLD}{BLUE}LORE MONEY{RESET}{LINE}{BLACK}Click"
+      button-xp: "{BOLD}{BLUE}LORE XP{RESET}{LINE}{BLACK}Click"
+      button-back: "{BOLD}{DARK_RED}TO RETURN{RESET}{LINE}{BLACK}Click"
+      
+Messages:
+  # General
+  no-permission: "{RED}You do not have permissions to execute this command"
+  no-money: "{RED}You do not have enough money to perform this action."
+  no-xp: "{RED}You do not have enough experience to perform this action."
+  no-item: "{ORANGE}This is not an item, exchange it for another."
+  # Repair
+  repair-success: "{GREEN}Your repair was successful!"
+  no-damage: "{ORANGE}This item is not damaged."
+  # Rename
+  rename-null: "{ORANGE}You did not name this item."
+  # Use the key: {RENAME} to see the name of the renamed item
+  rename-success: "{GREEN}Successfully renamed the item to: {PINK}{RENAME}"
+  # Lore
+  lore-null: "{ORANGE}You didn't name the lore for this article."
+  # Use the key: {LORE} to see the name of the renamed item
+  lore-success: "{GREEN}Correctly changed item lore to: {PINK}{LORE}"
+  # RepairHand
+  repairhand-success: "{GREEN}The item in your hand has been repaired"
+  # RepairALL
+  repairall-success: "{GREEN}All your items have been repaired."

@@ -1,0 +1,20 @@
+{
+	"name": "shock95x/auctionhouse",
+	"description": "Feature-packed AuctionHouse plugin for PocketMine-MP",
+	"type": "project",
+	"license": "GPL-3.0-or-later",
+	"authors": [
+		{
+			"name": "Shock95x"
+		}
+	],
+	"require": {
+		"pocketmine/pocketmine-mp": "^4.0",
+		"ext-json": "*"
+	},
+	"autoload": {
+		"psr-4": {
+			"": "./src"
+		}
+	}
+}

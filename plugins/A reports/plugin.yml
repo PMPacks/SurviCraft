@@ -1,0 +1,29 @@
+name: reportes
+author: ItzAngelZzYT
+version: 1.0.0
+api: 4.0.0
+main: Pushkar\MagicDiscord\Main
+
+commands:
+ report:
+  permission: report.cmd
+  description: §oMenú para reportar - Survicraft
+ playerreport:
+  permission: playerreport.cmd
+  description: §oReportar jugador - Survicraft
+ suggest:
+  permission: suggest.cmd
+  description: §oDar una sugerencia - Survicraft
+ bug: 
+  permission: bug.cmd
+  description: §oReportar bug - Survicraft
+  
+permissions: 
+ bug.cmd:
+  default: true
+ report.cmd:
+  default: true
+ suggest.cmd:
+  default: true
+ playerreport.cmd:
+  default: true

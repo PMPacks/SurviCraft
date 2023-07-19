@@ -1,0 +1,40 @@
+---
+Warden:
+  enabled: true
+  health: 200
+  displayHealth: ""
+  range: 100
+  attackDamage: 10
+  attackRate: 2
+  attackRange: 1.5
+  speed: 1
+  drops: ""
+  respawnTime: 100
+  heldItem: air;0;0;0a000000
+  offhandItem: air;0;0;0a000000
+  scale: 1
+  autoAttack: true
+  width: 1
+  height: 1
+  jumpStrength: 5
+  gravity: 0.08
+  spreadDrops: false
+  xpDrop: 100
+  commands: []
+  projectiles: []
+  armor:
+  - air;0;0;0a000000
+  - air;0;0;0a000000
+  - air;0;0;0a000000
+  - air;0;0;0a000000
+  hurtModifiers: []
+  knockbackResistance: 100
+  minions: []
+  topRewards: []
+  movesByJumping: true
+  networkId: minecraft:warden
+  x: 25115.4688
+  "y": 70
+  z: 25115.5371
+  world: ItzAngelZzYT
+...

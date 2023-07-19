@@ -1,0 +1,8 @@
+name: cratemoney
+version: 0.0.1
+main: crates\Main
+api: 4.0.0
+
+permissions:
+  box.op:
+    default: op

@@ -1,0 +1,53 @@
+---
+1st_line: "&l&a[&b1vsBot&a]"
+2nd_line: "&l&e{SWNAME}"
+CONFIG_VERSION: 0.7dev
+always.spawn.in.defaultLevel: true
+server_ip: "Survicraft.sytes.net"
+banned.commands.while.in.game: 
+  - /hub
+  - /lobby
+  - /spawn
+  - /tpa
+  - /sw
+  - /tpaccept
+  - /back
+  - /home
+  - /duel
+  - /fly
+  - /sm
+  - /mb
+chest.refill: false
+chest.refill.rate: 240
+clear.effects.on.arena.join: true
+clear.effects.on.respawn&join: false
+clear.inventory.on.arena.join: true
+clear.inventory.on.respawn&join: false
+damage.cancelled.causes: 
+  - 0
+  - 3
+  - 4
+  - 8
+  - 12
+  - 15
+death.spectator: false
+drops.on.death: false
+join.health: 30
+join.max.health: 20
+knockBack.follow.sign.direction: false
+knockBack.intensity: 2
+knockBack.radius.from.sign: 1
+needed.players.to.run.countdown: 2
+no.pvp.countdown: 1
+player.drop.item: true
+reward.command: /
+reward.value: 100
+reward.winning.players: true
+sign.knockBack: true
+sign.tick: false
+spectator.quit.item: "120:0"
+start.when.full: true
+world.compress.tar: false
+world.generator.air: true
+world.reset.from.tar: true
+...

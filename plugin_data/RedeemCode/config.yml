@@ -1,0 +1,8 @@
+---
+enter-a-code-to-claim: "§4» §cNecesitas ingresar un código para canjearlo.."
+code-expired: "§4» §cSu código §f{code}§c ha caducado y se eliminó."
+no-code-exist: "§4» §cEl código §f{code} §cno existe."
+code-already-reclamed: "§4» §cNo puedes volver a reclamar este código."
+code-reclamed: "§4» §cHas reclamado el código §f{code}§c correctamente"
+author-code-claimed: "§c» §eEl jugador §f{player} §eha usado tu código §f{code}"
+...

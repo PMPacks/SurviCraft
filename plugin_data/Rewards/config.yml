@@ -1,0 +1,54 @@
+---
+# Don't edit this if you don't know what you're doing
+config-version: 5.0
+
+# In which data provider the user data should be stored. If you don't know what that means, don't edit this
+data_storage: "JSON" # Providers: JSON, YAML
+
+# Multiple permission groups can be set up to allow certain players to get other rewards than normal players
+# If a player has the permission for multiple permission groups, the first group in the list will be their permission group
+# 'default' is the default permission group
+permission_groups:
+ - vip # players need the permission rewards.permissions.vip to get the rewards from this group
+
+# Reward streaks are strikes when you claim your reward multiple times in a row
+# Strikes start at 1 when you claim your reward 2 times in the timespan of waiting_time * 3
+# E.g. when you have to wait 1 day, you can wait up to 48 hours after you claimed your reward to claim it again to start a streak
+reward_streaks: true # false to disable this feature
+
+# The time how long the players have to wait before claiming their rewards again
+# The time is in seconds
+# 86400 seconds is one day
+# Each permission group has its own waiting time
+wait_time:
+ default: 86400
+ vip: 43200
+
+# These are the commands which will be executed if the players get their rewards
+# The commands will be executed through the console
+# {player} is the player who claimed his reward, {asplayer} to run the command as the player
+# IMPORTANT: Use \" instead of normal quotes
+# Each permission group has its own commands
+# You can set up rewards for different streaks
+# The default strike is 0
+# Don't forget to set up 'max', which is the highest possible streak
+# A missing streak reward will be replaced with the max reward
+commands:
+ default:
+  1:
+   - "give {player} diamond 1 {display:{Name:\"§r§l§4Reward\"}}"
+  max:
+   - "give {player} diamond 2 {display:{Name:\"§r§l§4Reward\"}}"
+ vip:
+  1:
+   - "give {player} diamond 1 {display:{Name:\"§r§1§4VIP Reward\"}}"
+  max:
+   - "give {player} diamond 2 {display:{Name:\"§r§1§4VIP Reward\"}}"
+
+# The /reward command
+command:
+ command: "reward"
+ description: "Claim your daily rewards"
+ usage: "/reward"
+ aliases: ["rewards", "claimreward"]
+...

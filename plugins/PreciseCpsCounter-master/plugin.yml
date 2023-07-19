@@ -1,0 +1,22 @@
+name: PreciseCpsCounter
+main: luca28pet\PreciseCpsCounter\Main
+api: 4.0.0
+version: 0.0.1
+description: Yet another cps counter
+author: luca28pet
+
+commands:
+  cps:
+    description: "Activé/Désactivé le cps counter !"
+    permission: cps.cmd
+    usage: /cps
+  seecps:
+    description: "Voir les cps d'un joueur !"
+    permission: cps.see
+    usage: "/seecps Joueur"
+
+permissions:
+  cps.cmd:
+    default: true
+  cps.see:
+    default: op

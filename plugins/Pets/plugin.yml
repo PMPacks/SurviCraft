@@ -1,0 +1,18 @@
+name: SimplePets
+main: brokiem\simplepets\SimplePets
+version: 1.0.0-ACM
+api: 4.0.0
+authors: ["RemakeItzAngel"]
+
+website: https://github.com/brokiem/SimplePets
+
+extensions:
+  Core: '>=8.0'
+
+permissions:
+  pets.acm:
+    default: op
+  pets.inv:
+    default: op
+  pets.montar:
+    default: op

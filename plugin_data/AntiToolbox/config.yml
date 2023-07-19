@@ -1,0 +1,6 @@
+# Anti-Toolbox plugin config.
+
+# Kick reason when player tries to join with Toolbox.
+kick-message: "Toolbox is not allowed on this server!"
+
+# Made with <3 by Lunarelly. (https://github.com/Lunarelly)

@@ -1,0 +1,57 @@
+# Command Configuration - Responses can be edited via lang.yml
+
+commandEnabled: true
+
+# --------------------------------
+
+# onHitConfiguration
+
+bloodHit: true # Possible values = true/false
+
+# ------------------
+
+
+# Killstreaks announcements
+killstreakAnnouncements:
+  isEnabled: true # Possible values = true/false
+  annonuceEveryXKillstreaks: 5
+# --------------------------
+
+
+# Death Money settings
+
+onDeathMoney:
+  isEnabled: false
+  disabled-worlds:
+    - "World1"
+    - "AntiDeathMoneyWorld"
+  type: "percent" # Possible values = percent/amount/playerMoney
+  valueType: "lose" # Possible values =  lose/gain
+  amount: 10
+
+onKillMoney:
+  isEnabled: false
+  disabled-worlds:
+    - "World1"
+    - "AntiKillMoneyWorld"
+  type: "percent" # Possible values = percent/amount/playerMoney
+  valueType: "gain" # Possible values = lose/gain
+  amount: 10
+
+# =====================
+
+
+# Instant respawn settings
+
+instant-respawn: true
+
+instant-respawn-disabled-worlds: # Instant respawn will be disabled in the below worlds.
+  - "World1"
+  - "AntiInstantRespawn"
+
+# ===========================
+
+
+# Don't modify the below settings
+config-version: 4
+# -------------------------------

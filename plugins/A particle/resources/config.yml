@@ -1,0 +1,14 @@
+# SlapperParticleV2
+# Update PocketMine-MP 4.0.0 Plugin
+
+# ParticleColors
+# Use RGB (0, 0, 0,)
+# The default is 255, 255, 255 (White)
+Color A: 255
+Color B: 255
+Color C: 255
+
+
+# Configuration Version
+# Dont change this unless you know what you doing!
+config-version: "1.0.1"

@@ -1,0 +1,10 @@
+---
+main: Electro\WordScrambler\WordScrambler
+name: WordScrambler
+version: 1.0.0
+api:
+- 4.0.0
+Author: Electro
+soft-depend:
+- EconomyAPI
+...

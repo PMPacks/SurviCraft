@@ -1,0 +1,30 @@
+name: warpJoin
+main: Warp\Main
+api: [4.0.0]
+version: 1.0.0
+author: ItzAngelZzYT
+commands:
+  warp:
+    description: "Abrir el menu de modalidades"
+    permission: warp.use
+
+permissions:
+  warp.use:
+    description: /warp
+    default: true
+    
+  minavip.warp:
+    default: op
+    
+  joinacm.command:
+    description: /joinacm
+    default: true
+    
+  bazaarui.command:
+    description: /bazaarui
+    default: true
+    
+  bonusui.command:
+    description: /bonusui
+    default: true
+

@@ -1,0 +1,93 @@
+# These are the list of crates
+crates:
+  # This is the name of the crate.
+  mystery:
+    # This is the crate item
+    item:
+      # This is the name of the crate item.
+      name: "§a§lSurvi§bCraft §eMoney Crate"
+      # This is the ID of the item used as the crate
+      id: 138
+      # This is the description/lore of the crate
+      lore:
+        - "  "
+        - "&7Haga clic derecho aquí para"
+        - "&7iniciar el proceso de apertura"
+        - "&7la nueva Money Crate para"
+        - "&7gana algunos de los mejores botines en SC!"
+        - " "
+        - "§eDisponible para comprar en §9discord.gg/F5TVbXXTWm"
+    # These are the bonus rewards that can be obtained.
+    bonus-rewards:
+      # Start from one and increase this as you add new rewards
+      1:
+        # This is the id of the item that is shown for the reward
+        id: 339
+        # This is the name of the item that is shown for the reward
+        name: "&ex2 DINERO"
+        # This is the command that is executed if the item is won.
+        command: "givemoney {player} 1000"
+      2:
+        id: 339
+        name: "&ex1 DINERO"
+        command: "givemoney {player} 200"
+      3:
+        id: 339
+        name: "&ex3 DINERO"
+        command: "givemoney {player} 287"
+
+    # These are the rewards that can be obtained from the crate
+    rewards:
+      # Start from one and increase this as you add new rewards
+      1:
+        # This is the id of the item that is shown for the reward
+        id: 339
+        # This is the name of the item that is shown for the reward
+        name: "&ex6 DINERO"
+        # This is the command that is executed if the item is won.
+        command: "givemoney {player} 987"
+      2:
+        id: 339
+        name: "&ex4 DINERO"
+        command: " {player} 7823"
+      3:
+        id: 339
+        name: "&ex8 DINERO"
+        command: "givemoney {player} 62"
+      4:
+        # This is the id of the item that is shown for the reward
+        id: 339
+        # This is the name of the item that is shown for the reward
+        name: "&ex9 DINERO"
+        # This is the command that is executed if the item is won.
+        command: "givemoney {player} 878"
+      5:
+        id: 339
+        name: "&ex4 DINERO"
+        command: "givemoney {player} 325"
+      6:
+        id: 339
+        name: "&ex2 DINERO"
+        command: "givemoney {player} 475"
+      7:
+        # This is the id of the item that is shown for the reward
+        id: 339
+        # This is the name of the item that is shown for the reward
+        name: "&ex1 DINERO"
+        # This is the command that is executed if the item is won.
+        command: "givemoney {player} 75"
+      8:
+        id: 339
+        name: "&ex6 DINERO"
+        command: "givemoney {player} 333"
+      9:
+        id: 339
+        name: "&ex3 DINERO"
+        command: "givemoney {player} 725"
+      10:
+          # This is the id of the item that is shown for the reward
+        id: 339
+          # This is the name of the item that is shown for the reward
+        name: "&ex1 DINERO"
+          # This is the command that is executed if the item is won.
+        command: "givemoney {player} 647"

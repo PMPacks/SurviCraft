@@ -1,0 +1,62 @@
+### [ 7TogkKeyShop ] ###
+
+# use § To Change Colors Text
+
+# Need plugin EconomyAPI and PiggyCrate to launch this plugin
+
+Title: "§l§aSurvi§bCraft §bKey§cShop"
+
+1:
+  Key:
+    Name: "Comun" # Key Name
+    Price: 1000 # Price key
+  Button:
+    Name: "§l§eComun Key" # Button Name
+  Message:
+    Succes: "§aCompraste una key §ccomun con exito" # Success Message Buy A Key
+    Failed: "§cNo tienes el dinero suficiente para comprar esta key" # Failed Message Buy A Key
+2:
+  Key:
+    Name: "Legendary"
+    Price: 10000
+  Button:
+    Name: "§l§eKey Legendary"
+  Message:
+    Succes: "§aCompraste una key §clegendary con exito"
+    Failed: "§cNo tienes el dinero suficiente para comprar esta key"
+3:
+  Key:
+    Name: "King"
+    Price: 100000
+  Button:
+    Name: "§l§eKey King"
+  Message:
+    Succes: "§aCompraste una key §cking con exito"
+    Failed: "§cNo tienes el dinero suficiente para comprar esta key"    
+4:
+  Key:
+    Name: "Cryztal"
+    Price: 50000
+  Button:
+    Name: "§l§eKey Cryztal"
+  Message:
+    Succes: "§aCompraste una key §ccryztal con exito"
+    Failed: "§cNo tienes el dinero suficiente para comprar esta key"       
+5:
+  Key:
+    Name: "Epica"
+    Price: 5000
+  Button:
+    Name: "§l§eKey Epica"
+  Message:
+    Succes: "§aCompraste una key §cepica con exito"
+    Failed: "§cNo tienes el dinero suficiente para comprar esta key"
+6:
+  Key:
+    Name: "Ruleta"
+    Price: 2500
+  Button:
+    Name: "§l§eKey Ruleta"
+  Message:
+    Succes: "§aCompraste una key §cruleta con exito"
+    Failed: "§cNo tienes el dinero suficiente para comprar esta key"        

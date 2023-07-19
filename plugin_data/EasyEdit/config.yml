@@ -1,0 +1,57 @@
+config-version: "2.1.0" #Please don't change this manually
+
+#Used language
+#Available:
+# auto - Detect from pocketmine
+# eng - English
+# deu - German
+# jpn - Japanese
+# custom - Allows to modify the language file directly
+language: auto
+
+#Tool cooldown length in seconds (defaults to a fifth of a second)
+#Used for brushes, selection axes and more
+#Lowering this might cause some unintended behavior on mobile devices
+tool-cooldown: 0.2
+
+#Whether to allow user with "easyedit.history.other" permission to undo/redo other people's actions
+allow-history-other: true
+
+#Remaps usages of 3 or more slashes to 2 slashes, allowing usage of minecraft autocomplete
+#Disable this if you have commands requiring 3 slashes
+remap-commands: true
+
+#Whether to allow setting blocks which are not registered
+#Enabling this allows setting blocks which are not registered, but might cause issues like game crashes or world corruption
+allow-unregistered-blocks: false
+
+#Max blocks to use fast set on
+#Fast set allows to set blocks without any flickering, but triples execution time
+#This is also somewhat harsh on client and network performance, so better not set this to high; default:256000
+fast-set-max: 256000
+
+#Distance to check while filling; default:100
+fill-distance: 100
+
+#Max blocks checked when pathfinding, default: 1000000 (1M)
+pathfinding-max: 1000000
+
+#Blocks which get ignored when calculating terrain height (e.g. when smoothing) or inserting selection
+terrain-ignored-blocks: [ "air", "wood", "wood2", "leaves", "leaves2", "dandelion", "poppy", "tall_grass", "water", "8", "lava", "10", "snow_layer", "carpet", "brown_mushroom", "red_mushroom" ]
+
+#Whether to send spammy debug messages into the console
+#requires server to be on debug mode
+send-debug: false
+
+#Whether to automatically download newer data files from GitHub
+#Turn this off if you are on an extremely limited data plan or are not connected to the internet
+download-data: true
+
+#Whether to cache data files locally
+cache-data: true
+
+#Better don't change this, the following is mainly for transparency
+#Conversion data source, requires specific Format
+#for more information see https://github.com/platz1de/EasyEdit-Data/tree/format-v2.0
+#If you want to use your own data, the simplest way is to fork the data repository and modify some values
+data-repo: "https://raw.githubusercontent.com/platz1de/EasyEdit-Data/format-v2.0/dataRepo.json"

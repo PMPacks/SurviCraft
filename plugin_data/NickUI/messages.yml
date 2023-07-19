@@ -1,0 +1,63 @@
+#   _   _   _          _      _   _   ___ 
+#  | \ | | (_)   ___  | | __ | | | | |_ _|
+#  |  \| | | |  / __| | |/ / | | | |  | | 
+#  | |\  | | | | (__  |   <  | |_| |  | | 
+#  |_| \_| |_|  \___| |_|\_\  \___/  |___|
+#         by fernanACM
+# Here you will be able to change the messages of the plugin very easily, in addition you 
+# will be able to use "keys" for the colors/keywords.
+# ======(KEYS)======
+# "{LINE}" => "\n",
+# "{NAME}" => $player->getName(),
+# Colors
+# "{BLACK}" => TextFormat::BLACK,
+# "{DARK_BLUE}" => TextFormat::DARK_BLUE,
+# "{DARK_GREEN}" => TextFormat::DARK_GREEN,
+# "{CYAN}" => TextFormat::DARK_AQUA,
+# "{DARK_RED}" => TextFormat::DARK_RED,
+# "{PURPLE}" => TextFormat::DARK_PURPLE,
+# "{GOLD}" => TextFormat::GOLD,
+# "{GRAY}" => TextFormat::GRAY,
+# "{DARK_GRAY}" => TextFormat::DARK_GRAY,
+# "{BLUE}" => TextFormat::BLUE,
+# "{GREEN}" => TextFormat::GREEN,
+# "{AQUA}" => TextFormat::AQUA,
+# "{RED}" => TextFormat::RED,
+# "{PINK}" => TextFormat::LIGHT_PURPLE,
+# "{YELLOW}" => TextFormat::YELLOW,
+# "{WHITE}" => TextFormat::WHITE,
+# "{ORANGE}" => "§6"
+# "{BOLD}" => TextFormat::BOLD,
+# "{RESET}" => TextFormat::RESET
+
+# Prefix
+Prefix: "{BOLD}{GRAY}[{PINK}NickUI{GRAY}]{DARK_GRAY}»{RESET} "
+# =======(MESSAGES)=======
+#NickUI
+Menu:
+  title: "{BOLD}{PINK}NickUI"
+  nick-content: "{GRAY}Change your nickname discreetly{LINE}{GRAY}Your nickname is: {GREEN}{NICK}"
+  normal-content: "{GRAY}Change your nickname discreetly{LINE}{LINE}{GRAY}§7You don't have {BOLD}{RED}any{RESET}{GRAY} nickname."
+  button-nick: "{BOLD}{CYAN}Create a new nickname{LINE}{RESET}{BLACK}click to open"
+  button-random-nick: "{BOLD}{BLUE}Random nickname{LINE}{RESET}{BLACK}click to open"
+  button-nick-reset: "{BOLD}{DARK_RED}Remove nickname{LINE}{RESET}{BLACK}click to open"
+  button-exit: "{BOLD}{RED}Close menu{LINE}{RESET}{BLACK}click to open"
+  
+Nick-menu:
+  title: "{BOLD}{PINK}NickUI{GREEN} - {PINK}Change"
+  content: "{YELLOW}Write your nickname here:"
+  input: "ACM-PocketMine-MP"
+  
+# Chat messages
+Messages:
+  no-permission: "{RED}You do not have permissions to use this command."
+  error-characters: "{RED}There are many characters for this nick, use less."
+  error-command: "{RED}You must complete the command."
+  
+  Nick:
+    nick-reset: "{GREEN}Your name has been successfully reset."
+    reset-failed: "{RED}His no nick can no longer be reset."
+    # Use the brace {NICK} to see his nickname.
+    nick-success: "{GREEN}Its nick has been changed, it is now called: {YELLOW}{NICK}{GREEN}."
+    not-allowed-nick: "{RED}This nick is not allowed. Please try another."
+    error-line: "{RED}You have not completed your nickname, please try again."

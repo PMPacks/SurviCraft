@@ -1,0 +1,13 @@
+---
+key: "Mq5gZIUhFKkT8aAGpseV1fXod53p0wiLTq"
+autoclaim: true
+
+vote_announcement: "§8[§a!§8]§r §e{username} §7a votado por el servidor, y se acaba de ganar §aKit Vote"
+
+message_not_voted: "§8[§c!§8] No As Votado Hoy"
+message_voted: "§8[§a!§8] §7Ya Votaste Hoy"
+
+
+commands:
+  - "givekit {username} §l§f[§6KIT-§dBOOS§bTER§f]"
+...

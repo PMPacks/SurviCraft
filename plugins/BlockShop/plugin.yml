@@ -1,0 +1,12 @@
+name: BKaos
+version: 0.1
+author: JuqnGOOD
+main: juqn\blockshop\BlockShop
+api: 4.0.0
+permissions:
+  npc.blockshop.command:
+    description: Permission for /blockshop npc
+    default: op
+  remove.npc.blockshop:
+    description: Permission for remove npc
+    default: op

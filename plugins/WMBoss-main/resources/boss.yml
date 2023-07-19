@@ -1,0 +1,9 @@
+---
+#Example items:
+# item: "id:meta:count"
+# name: "Item name"
+# lore: ["Lore line 1", "Lore line 2"]
+# enchantments:
+#  - id:level
+#  - id:level
+...

@@ -1,0 +1,73 @@
+#----------------------------------------------
+#Estos son los ajustes delos menus secundarios
+#----------------------------------------------
+#
+#Editar el titulo de cada warp al Abrirlo
+
+TitleForm-Lobby: "Lobby"
+
+TitleForm-Boss: "Editar en config.yml"
+
+TitleForm-Minapvp: "Editar en config.yml"
+
+TitleForm-Minasafe: "Editar en config.yml"
+
+TitleForm-Minavip: "Editar en config.yml"
+
+TitleForm-Survival: "Editar en config.yml"
+#
+# Editar Contenido de cada warp al abrirlo
+#
+Info-Lobby: "Editar en config.yml"
+
+Info-Boss: "Editar en config.yml"
+
+Info-Minapvp: "Editar en config.yml"
+
+Info-Minasafe: "Editar en config.yml"
+
+Info-Minavip: "Editar en config.yml"
+
+Info-Survival: "Editar en config.yml"
+#
+#Editar Titles de cada warp al ejecutarlo
+#
+Title-Lobby: "Editar en config.yml"
+SubTitle-Lobby: "Editar en config.yml"
+
+Title-Boss: "Editar en config.yml"
+SubTitle-Boss: "Editar en config.yml"
+
+Title-Minapvp: "Editar en config.yml"
+SubTitle-Minapvp: "Editar en config.yml"
+
+Title-Minasafe: "Editar en config.yml"
+SubTitle-Minasafe: "Editar en config.yml"
+
+Title-Minavip: "Editar en config.yml"
+SubTitle-Minavip: "Editar en config.yml"
+
+Title-Survival: "Editar en config.yml"
+SubTitle-Survival: "Editar en config.yml"
+#----------------------------------------
+#Estos son los ajustes del menu principal
+#----------------------------------------
+#Editar Titulo del formulario principal
+TitleForm-Warp: "Editar en config.yml"
+
+#Editar el contenido del formulario principal
+ContentForm-Warp: "Editar en config.yml"
+
+#Editar botones al inicio de cada warp
+Button-Lobby: "Lobby\nEditar en config.yml"
+
+Button-Boss: "Boss\nEditar en config.yml"
+
+Button-Minapvp: "Minapvp\nEditar en config.yml"
+
+Button-Minasafe: "Minasafe\nEditar en config.yml"
+
+Button-Minavip: "Minavip\nEditar en config.yml"
+
+Button-Survival: "Survival\nEditar en config.yml"
+

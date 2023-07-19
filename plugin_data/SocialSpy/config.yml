@@ -1,0 +1,5 @@
+#Choose if you want the plugin to send every commands to your discord server with a webhook (on/off)
+webhook: true
+#enter the url of the webhook
+url: https://discord.com/api/webhooks/1065838763596582913/vHk0E2D9YBgIVEHQMZ-0vbYM-VGUzfW4dgjf6awnTker8Ferac94MlITOHuAke6YSsCp
+...

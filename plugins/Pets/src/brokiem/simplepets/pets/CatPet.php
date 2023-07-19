@@ -1,0 +1,23 @@
+<?php
+
+declare(strict_types=1);
+
+namespace brokiem\simplepets\pets;
+
+use brokiem\simplepets\pets\base\BasePet;
+use pocketmine\entity\EntitySizeInfo;
+
+class CatPet extends BasePet {
+
+    public static function getNetworkTypeId(): string {
+        return "minecraft:cat";
+    }
+
+    public function getPetType(): string {
+        return "CatPet";
+    }
+
+    protected function getInitialSizeInfo(): EntitySizeInfo {
+        return new EntitySizeInfo(0.85, 0.8);
+    }
+}

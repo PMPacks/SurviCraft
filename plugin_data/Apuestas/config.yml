@@ -1,0 +1,15 @@
+# Plugin created by SVega - Check my YouTube channel! https://www.youtube.com/channel/UCOBOk07J93sqTlfjRzjThyQ
+# Use & to set color format
+
+# El porcentaje de la probabilidad se escribe solo en numero, sin %
+probabilidad: 70
+
+# El cooldown debe ir en minutos
+cooldown: 90
+
+# Mensajes
+prefix: "&7[&b&lApuestas&r&7] "
+falta-dinero: "{PREFIX} &cNo puedes establecer una cantidad superior a tu dinero actual"
+cooldown-activo: "{PREFIX} &cTienes un cooldown activo de {MINUTOS} minutos y {SEGUNDOS} segundos!"
+apuesta-ganada: "{PREFIX} &aGanaste la apuesta y duplicaste tus ganancias en {CANTIDAD}!"
+apuesta-perdida: "{PREFIX} &cPerdiste la apuesta y perdiste &4{DINERO} monedas!"

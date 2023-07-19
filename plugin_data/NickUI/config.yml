@@ -1,0 +1,44 @@
+#   _   _   _          _      _   _   ___ 
+#  | \ | | (_)   ___  | | __ | | | | |_ _|
+#  |  \| | | |  / __| | |/ / | | | |  | | 
+#  | |\  | | | | (__  |   <  | |_| |  | | 
+#  |_| \_| |_|  \___| |_|\_\  \___/  |___|
+#         by fernanACM
+# Here you can make the necessary adjustments for the NickUI
+
+# =======(SETTINGS)=======
+Settings:
+  # Write here nicknames that you do not like or are risque
+  # add the banned nicknames with the following example:
+  # Not-allow-custom-nicks:
+  #  - Shit
+  #  - Fuck
+  #  - Bitch
+  not-allow-custom-nicks:
+    - "Gay"
+    - "HomoSexual"
+    - "PocketMine-MP"    
+    - "sucks"    
+    - "FUCK"    
+    - "bitch"
+    - "pmmp"
+    - "Servidor"
+    - "Console"
+    - "NickUI"
+    
+  # Put the maximum characters for the nicks
+  characters: 10
+  # Add random nicknames with this example:
+  # Random-nicks:
+  #   - Friend
+  #   - ACM
+  #   - Cars
+  random-nicks:
+    - "ACM"
+    - "Jonatan"
+    - "Mrc"
+    - "AbelGod"
+    - "Naruto"
+    - "Pro"
+    - "Sipe"
+    - "New_122"

@@ -1,0 +1,7 @@
+# Server Restart By qXoap
+# use tag {TIME} para ver el tiempo restante
+time-message: "&8(&cRestart&8) &7El Servidor se reiniciara en &6{TIME}"
+kick-message: "&7El Servidor Se Esta Reiniciando!"
+#sounds
+tick-sound: true
+sound: 'note.bass'

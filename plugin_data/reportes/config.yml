@@ -1,0 +1,47 @@
+report-webhook-url: "https://discord.com/api/webhooks/1076966678337957979/ZPOtRpmB0d2OmyGxQA13AtVy2wYcHrBS7JX1ShuJJqghzxvrmtwZed63gxUbRlnYzLFB"
+
+suggest-webhook-url: "https://discord.com/api/webhooks/1076966678337957979/ZPOtRpmB0d2OmyGxQA13AtVy2wYcHrBS7JX1ShuJJqghzxvrmtwZed63gxUbRlnYzLFB"
+
+bug-webhook-url: "https://discord.com/api/webhooks/1076966678337957979/ZPOtRpmB0d2OmyGxQA13AtVy2wYcHrBS7JX1ShuJJqghzxvrmtwZed63gxUbRlnYzLFB"
+
+suggest-webhook-username: "Survicraft  Sugerencia"
+bug-webhook-username: "survucraft Bugs"
+report-webhook-username: "survicraft Reportes"
+
+suggest-webhook-avatar-url: "https://ibb.co/TY8WqLH"
+bug-webhook-avatar-url: "https://ibb.co/TY8WqLH"
+report-webhook-avatar-url: "https://ibb.co/TY8WqLH"
+
+report-embed-color: "2EE82A"
+suggest-embed-color: "2EE82A"
+bug-embed-color: "2EE82A"
+
+suggest-thumbnail-url: "https://i.imgur.com/FEQtSvd.png"
+bug-thumbnail-url: "https://i.imgur.com/ZZ7oG8h.png"
+report-thumbnail-url: "https://i.imgur.com/lOTCExk.png"
+
+enable-startup-alert: true
+
+enable-shutdown-alert: true
+
+startup-message-title: ":white_check_mark: Survicraft está encendido !"
+
+startup-embed-field-title: "Survicraft en linea"
+
+startup-embed-field-message: "Survicraft en estos momentos está encendido, ya puedes entrar."
+
+startup-footer-image-url: ""
+
+startup-footer-message: "Survicraft"
+
+shutdown-message-title: ":x: Survicraft está apagado !"
+
+shutdown-embed-field-title: "Survicraft desconectado"
+
+shutdown-embed-field-message: "Survicraft en estos momentos está apagado, intenta entrar más tarde."
+
+shutdown-footer-image-url: ""
+
+shutdown-footer-message: "Survicraft"
+
+#https://discord.com/api/webhooks/1076966678337957979/ZPOtRpmB0d2OmyGxQA13AtVy2wYcHrBS7JX1ShuJJqghzxvrmtwZed63gxUbRlnYzLFB

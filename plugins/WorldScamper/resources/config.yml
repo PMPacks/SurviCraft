@@ -1,0 +1,14 @@
+# How Much Time In Minutes Players Have To Guess The Word
+Scramble-Time: 10
+# Min and Max Amount Of Money Players Can Win From Unscrambling The Word First
+# EconomyAPI is needed if reward is enabled
+Reward-Enabled: true
+Min-Reward: 1
+Max-Reward: 5
+Words:
+- Minecraft
+- Dragon
+- Obeja 
+- ArleyMC
+- Axew
+- Hittler

@@ -1,0 +1,20 @@
+name: SacPl
+main: zeyroz\nv\Main
+version: 1.0.0
+api: 4.0.0
+author: Zeyroz
+
+permissions:
+  nv.cmd:
+    default: true
+
+commands:
+  nv:
+    description: "Avoir un effet de night vision !"
+    usage: /nv
+    permission: nv.cmd
+    aliases: ["vision"]
+  xyz:
+    description: "Voir les coordonnées"
+    usage: /xyz
+    permission: nv.cmd

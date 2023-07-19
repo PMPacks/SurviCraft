@@ -1,0 +1,26 @@
+#   _____               _      _   _ 
+#  |_   _|  _ __       / \    | | | |
+#    | |   | '_ \     / _ \   | | | |
+#    | |   | |_) |   / ___ \  | | | |
+#    |_|   | .__/   /_/   \_\ |_| |_|
+#          |_|                      
+#    by matymare and fernanACM
+
+# Plugin created by matymare, Updated by fernanACM
+# TPAll - It is a PocketMine-MP plugin by which you can port all players to one place
+# The plugin must not be modified without asking the plugin owner
+# You can write to me on Discord: Roospy#1666
+
+# Configure the text and sound of the plugin, through the 'config.yml'. Minecraft sounds page:
+# https://www.digminecraft.com/lists/sound_list_pe.php
+
+# ======(SETTINGS)======
+Settings:
+  # Prefix for Tpall message
+  Prefix: "§l§f[§eTPAll§f]§8»§r "
+  # Tpal's message
+  Message-tpall: "§aTeleporting...\n"
+  # Use "true" or "false" to enable/disable sound when using Tpall
+  Tpall-no-sound: true
+  # Type of sound when using Tpall
+  Tpall-sound: "portal.portal"

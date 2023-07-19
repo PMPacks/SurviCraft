@@ -1,0 +1,11 @@
+name: FactionExtensionUI
+main: FactionExtensionUI\Main
+version: 1.0
+api: 4.0.0
+author: Darco23
+description: Extension para factions
+
+permissions:
+  factionui.command:
+    description: /factionui
+    default: true

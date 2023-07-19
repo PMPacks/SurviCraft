@@ -1,0 +1,41 @@
+---
+Guest:
+  alias: gst
+  inheritance: []
+  permissions:
+  - pocketmine.command.list
+  - pocketmine.command.me
+  worlds: []
+Admin:
+  alias: adm
+  inheritance:
+  - Guest
+  permissions:
+  - pocketmine.command.gamemode
+  - pocketmine.command.give
+  - pocketmine.command.kick
+  - pocketmine.command.teleport
+  - pocketmine.command.time
+  - pocketmine.command.transferserver
+  worlds: []
+Owner:
+  alias: owr
+  inheritance:
+  - Admin
+  permissions:
+  - pocketmine.command.gamemode
+  - pocketmine.command.give
+  - pocketmine.command.kick
+  - pocketmine.command.teleport
+  - pocketmine.command.time
+  - pocketmine.command.transferserver
+  worlds: []
+ACM:
+  alias: acm
+  isDefault: true
+  inheritance: []
+  permissions:
+  - pocketmine.command.me
+  - pocketmine.command.transferserver
+  worlds: []
+...

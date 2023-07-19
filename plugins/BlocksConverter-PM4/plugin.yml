@@ -1,0 +1,16 @@
+name: BlocksConverter
+version: 3.0.0
+api: 4.0.0-BETA12
+author: matcracker
+main: matcracker\BlocksConverter\Main
+
+permissions:
+    blocksconverter.command.convertqueue:
+        description: Allows using /convertqueue command.
+        default: op
+    blocksconverter.command.convert:
+        description: Allows using /convert command.
+        default: op
+    blocksconverter.command.toolblock:
+        description: Allows using /toolblock command.
+        default: op

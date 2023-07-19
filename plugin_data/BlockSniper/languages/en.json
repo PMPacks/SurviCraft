@@ -1,0 +1,182 @@
+{
+	"commands": {
+		"common": {
+			"warning-prefix": "[Warning] ",
+			"invalid-sender": "You can only execute this command as a player.",
+			"no-permission": "You do not have permission to execute this command."
+		},
+		"brush": {
+			"description": "Opens the GUI for BlockSniper.",
+			"need-item": "You can only bind a brush to an item.",
+			"bind-brush-item": "You cannot bind the brush item",
+			"clear-success": "Successfully cleared all brushes from this item.",
+			"not-bound": "There was no brush bound to this item."
+		},
+		"blocksniper": {
+			"description": "Displays information about BlockSniper, or reloads the plugin.",
+			"info": "Information",
+			"version": "Version: ",
+			"organisation": "Organisation: ",
+			"authors": "Authors: ",
+			"target-api": "Target API: ",
+			"reload": "Reloading BlockSniper..."
+		},
+		"redo": {
+			"description": "Redoes the last undone BlockSniper modification.",
+			"no-redo": "No modifications could be found to redo.",
+			"success": "Successfully redid the last undone modification."
+		},
+		"undo": {
+			"description": "Undoes the last BlockSniper modification.",
+			"no-undo": "No modifications could be found to undo.",
+			"success": "Successfully undid the last modification."
+		},
+		"clone": {
+			"description": "Clones an area using the specified format.",
+			"copy": {
+				"success": "Successfully copied the location looked at."
+			},
+			"schematic": {
+				"missing-name": "No valid name has been given for the schematic.",
+				"success": "Successfully saved a schematic file to %s."
+			}
+		},
+		"paste": {
+			"description": "Pastes a previously cloned area to the world.",
+			"copy": {
+				"no-copies": "No copy could be found to paste.",
+				"success": "Successfully pasted the copy on the location looked at."
+			},
+			"schematic": {
+				"nonexistent": "The schematic %s could not be found in the schematic directory.",
+				"success": "Pasting the schematic %s on the location looked at."
+			}
+		},
+		"deselect": {
+			"description": "It deselect the current selection.",
+			"success": "Successfully deselected your selection."
+		}
+	},
+	"ui": {
+		"main-menu": {
+			"title": "BlockSniper Menu",
+			"subtitle": "Click a button to continue",
+			"brush": "Brush",
+			"config": "Configuration",
+			"exit": "Exit"
+		},
+		"brush-menu": {
+			"title": "Brush Menu",
+			"name": "Brush Name",
+			"size": "Brush Size",
+			"shape": "Brush Shape",
+			"type": "Brush Type",
+			"mode": {
+				"description": "Brush Mode",
+				"brush": "Brush",
+				"selection": "Selection"
+			},
+			"hollow": "Hollow Brush",
+			"decrement": "Decrementing Brush",
+			"height": "Brush Height",
+			"width": "Brush Width",
+			"length": "Brush Length",
+			"blocks": "Brush Blocks",
+			"obsolete": "Replaced Blocks",
+			"biome": "Brush Biome",
+			"tree": "Brush Tree",
+			"layer-width": "Layer Width",
+			"soil": "Soil Blocks"
+		},
+		"configuration-menu": {
+			"title": "BlockSniper Configuration",
+			"language": "Language used for sending BlockSniper related messages",
+			"brush-item": "Item ID of the item that is used to brush",
+			"selection-item": "Item ID of the item that is used to select",
+			"max-brush-size": "The absolute maximum size of brush",
+			"min-async-size": "Asynchronous brush size limit. If brush size is bigger than this, operations get executed asynchronously",
+			"max-reverts": "Maximum amount of Undo/Redo stores to save. Older ones get cleaned automatically",
+			"reset-decrement-brush": "Automatically reset decrementing brush to the initial starting size",
+			"save-brush": "Save brush properties of players on server restart",
+			"session-timeout-time": "The time in minutes after which the session of a player is removed after leaving the server",
+			"auto-gui": "Automatically open the GUI when switching hotbar slot to one containing the brush item",
+			"cooldown": "The cooldown in seconds (can be decimal) until the brush can be re-used after using it",
+			"myplot-support": "Whether to turn on MyPlot support or not"
+		},
+		"tree-menu": {
+			"title": "Tree Menu",
+			"trunk-height": "The height of the trunk of the tree",
+			"trunk-width": "The width of the tree at the bottom; The width decreases gradually upwards",
+			"max-branch-length": "The maximum length one of the branches of the tree can extend",
+			"trunk-blocks": "The blocks to use for the trunk of the tree",
+			"leaves-blocks": "The blocks to use for the leaves of the tree",
+			"leaves-cluster-size": "The size of the leaves cluster at the end of each branch"
+		},
+		"changelog": {
+			"title": "Changelog Menu",
+			"name": "Changelog",
+			"subtitle": "Click a version to view its changelog.",
+			"close": "Close",
+			"see-other": "See other changelogs"
+		}
+	},
+	"log": {
+		"language": {
+			"auto-selected": "No valid language has been selected. English has been auto selected.",
+			"usage": "Please select a language by going to the configuration tab in-game, using /b.",
+			"selected": "Language selected: "
+		},
+		"brush": {
+			"restored": "Brush of player %s has been restored.",
+			"all-restored": "All brushes have been restored."
+		},
+		"reload": {
+			"start": "Reloading...",
+			"finish": "Reload finished."
+		}
+	},
+	"brush": {
+		"state": {
+			"ready": "Ready",
+			"done": "Done"
+		},
+		"selection": {
+			"first": "Position 1 set to:",
+			"second": "Position 2 set to:",
+			"error": "Set your selection using the selection item before doing this action."
+		},
+		"shape": {
+			"cube": "Cube",
+			"cuboid": "Cuboid",
+			"sphere": "Sphere",
+			"cylinder": "Cylinder",
+			"ellipsoid": "Ellipsoid"
+		},
+		"type": {
+			"biome": "Biome",
+			"cleanentities": "Clean Entities",
+			"clean": "Clean",
+			"drain": "Drain",
+			"expand": "Expand",
+			"fill": "Fill",
+			"flattenall": "Flatten All",
+			"flatten": "Flatten",
+			"layer": "Layer",
+			"leafblower": "Leaf Blower",
+			"melt": "Melt",
+			"overlay": "Overlay",
+			"regenerate": "Regenerate",
+			"replaceall": "Replace All",
+			"replace": "Replace",
+			"snowcone": "Snowcone",
+			"toplayer": "Top Layer",
+			"tree": "Tree",
+			"freeze": "Freeze",
+			"warm": "Warm",
+			"heat": "Heat",
+			"smooth": "Smooth",
+			"replacetarget": "Replace Target",
+			"plant": "Plant"
+		}
+	}
+}

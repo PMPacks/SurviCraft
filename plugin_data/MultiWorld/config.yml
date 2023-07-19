@@ -1,0 +1,21 @@
+---
+## Main configuration file for MultiWorld
+
+# Do not change this!
+config-version: '1.7.0.1'
+
+# Field with prefix
+prefix: '§7[MultiWorld]'
+
+# You can add your language by creating pull request at GitHub (github.com/CzechPMDevs/MultiWorld/pulls)
+# Language is automatically chosen from minecraft. There you can change
+# fallback language, which is used when the server does not have required language resources
+language: 'en_US'
+
+# Enabling this option will cause server to use forcefully language specified in
+# 'language' field.
+force-default-language: false
+
+# Enables handling dimensions when teleporting between worlds
+handle-dimensions: false
+...

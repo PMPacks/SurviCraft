@@ -1,0 +1,17 @@
+---
+Configuration Version: 4.3.1
+Message Language: en
+Brush Item:
+  Item ID: golden_carrot
+Selection Item:
+  Item ID: glowstone_dust
+Maximum Size: 30
+Asynchronous Operation Size: 15
+Maximum Revert Stores: 15
+Reset Decrement Brush: true
+Save Brush Properties: true
+Session Timeout Time in minutes: 5
+Brush cooldown in seconds: 0
+Open GUI Automatically: true
+MyPlot Support: false
+...

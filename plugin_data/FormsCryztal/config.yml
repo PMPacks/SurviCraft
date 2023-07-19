@@ -1,0 +1,11 @@
+#FORMS CONFIGURATION PE
+#Button 1
+Content-InfoButton: "Info"
+#Button 2
+Content-RedesButton: "Redes\n https://discord.gg/F5TVbXXTWm "
+#Button 3
+Content-RangosButton: "Rangos\n https://discord.gg/F5TVbXXTWm "
+#Button 4
+Content-ReglasButton: "Reglas"
+
+

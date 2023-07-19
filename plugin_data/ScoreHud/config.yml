@@ -1,0 +1,89 @@
+---
+# DO NOT EDIT THIS VALUE.
+# ONLY FOR INTERNAL USE.
+config-version: 11
+
+# Set how you want to update the lines shown on the scoreboard.
+# Available modes: single, complete
+#
+# - single: Only the tags on scoreboard which have an update are updated
+#   and not the entire board. (preferred)
+# - complete: On a single tag update the entire scoreboard is updated i.e.
+#   the tags which don't have an update are updated as well.
+#
+# Apart from that difference both modes work the same. You will not notice much difference.
+line-update-mode: single
+
+# In-built support for some basic tags provided by ScoreHud.
+# There used to be a separate plugin called BasicScore handling these tags however it
+# has since then been moved within ScoreHud (due to popular demand).
+tag-factory:
+  # Do you want to enable support for basic tags provided by ScoreHud.
+  # Default: true
+  enable: true
+
+  # Some tags require constant updating for them to work this is
+  # only achieved through a task.
+  # Mention the time in seconds for that value to update.
+  # Default: 5 (seconds)
+  update-period: 5
+
+  # If you want the to show memory tags on the scoreboard then set this to true.
+  # NOTE: This could lead to a drop in performance, use only if necessary.
+  enable-memory-tags: false
+
+# If you want to have different scoreboards for different worlds
+# then edit the nested values to suit your needs.
+multi-world:
+  # Set this to true if you want to enable per world scoreboards.
+  # Then edit 'scoreboards' key in scorehud.yml to suit your needs.
+  active: false
+
+  # If you have 'multi-world.active' set to true and you want to display
+  # a default scoreboard for a world whose scoreboard you didn't set
+  # under 'scoreboards' key in scorehud.yml, then set this to true.
+  use-default: false
+
+# If you don't want a scoreboard to be displayed in a particular world then
+# mention the folder name of that particular world below.
+# Follow the given pattern to add more worlds.
+# If you wish to not have any disabled worlds then set the key as shown below.
+# disabled-worlds: []
+disabled-worlds:
+- "world 1"
+- "world 2"
+
+# Change how time is displayed on your server.
+time:
+  # Set the timezone to your own preference.
+  # false - Follow the server/machine time without changes.
+  # For a list of timezones you can visit:
+  # https://secure.php.net/manual/timezones.php
+  # Example: "America/New_York" - This will set NewYork's time.
+  zone: false
+
+  format:
+    # Set the time format that you want to display.
+    # Use {scorehud.time} tag for displaying time.
+    # You need to set `tag-factory.enable` to true for these tags to work
+    #
+    # H - hours
+    # i - minutes
+    # s - seconds
+    #
+    # You can find more information regarding it here:
+    # http://php.net/manual/function.date.php
+    time: "H:i:s"
+
+    # Set the date format that you want to display. Will only work
+    # Use {scorehud.date} tag for displaying date.
+    # You need to set `tag-factory.enable` to true for these tags to work
+    #
+    # d - date (01-31)
+    # m - month (01-12)
+    # Y - year (yyyy)
+    #
+    # You can find more information regarding it here:
+    # http://php.net/manual/function.date.php
+    date: "d-m-Y"
+...

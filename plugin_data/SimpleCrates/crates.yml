@@ -1,0 +1,586 @@
+crates:
+  Common:
+    drops:
+      - id: 152
+        meta: 0
+        amount: 8
+        chance: 25
+      - id: 42
+        meta: 0
+        amount: 8
+        chance: 25
+      - id: 41
+        meta: 0
+        amount: 8
+        chance: 25
+      - id: 368
+        meta: 0
+        amount: 4
+        chance: 10
+        name: "§dPerlas de Ender"
+        lore: "By Maxcraft"
+      - id: 310
+        meta: 0
+        amount: 1
+        chance: 20
+        name: "§cCasco Common"
+        lore: "By Maxcraft"
+        enchantments:
+          - name: "protection"
+            level: 1
+          - name: "fire_protection"
+            level: 1
+          - name: "unbreaking"
+            level: 1
+      - id: 311
+        meta: 0
+        amount: 1
+        chance: 20
+        name: "§cPechera Common"
+        lore: "By Maxcraft"
+        enchantments:
+          - name: "protection"
+            level: 1
+          - name: "fire_protection"
+            level: 1
+          - name: "unbreaking"
+            level: 1
+      - id: 312
+        meta: 0
+        amount: 1
+        chance: 20
+        name: "§cPantalones Common"
+        lore: "By Maxcraft"
+        enchantments:
+          - name: "protection"
+            level: 1
+          - name: "fire_protection"
+            level: 1
+          - name: "unbreaking"
+            level: 1
+      - id: 313
+        meta: 0
+        amount: 1
+        chance: 20
+        name: "§cBotas Common"
+        lore: "By Maxcraft"
+        enchantments:
+          - name: "protection"
+            level: 1
+          - name: "fire_protection"
+            level: 1
+          - name: "unbreaking"
+            level: 1
+      - id: 322
+        meta: 0
+        amount: 6
+        chance: 12
+        name: "§eGapple"
+        lore: "By Maxcraft"
+      - id: 276
+        meta: 0
+        amount: 1
+        chance: 18
+        name: "§cEspada Common"
+        lore: "By Maxcraft"
+        enchantments:
+          - name: "sharpness"
+            level: 2
+      - id: 373
+        meta: 14
+        amount: 1
+        chance: 15
+      - id: 373
+        meta: 7
+        amount: 1
+        chance: 15
+      - id: 175
+        meta: 0
+        amount: 1
+        chance: 10
+        name: "§a$10,000 §eCoins"
+        type: command
+        commands:
+          - "givemoney {PLAYER} 10000"
+    amount: 1
+    commands: []
+    floating-text: "§cCommon §rCrate\n§7Click para ver"
+  Uncommon:
+    drops:
+      - id: 152
+        meta: 0
+        amount: 16
+        chance: 25
+      - id: 42
+        meta: 0
+        amount: 16
+        chance: 25
+      - id: 41
+        meta: 0
+        amount: 16
+        chance: 25
+      - id: 131
+        meta: 0
+        amount: 1
+        chance: 10
+        name: "§eMythic Key"
+        type: command
+        commands:
+          - "key Mythic 1 {PLAYER}"
+      - id: 368
+        meta: 0
+        amount: 8
+        chance: 10
+        name: "§dPerlas de Ender"
+        lore: "By Maxcraft"
+      - id: 310
+        meta: 0
+        amount: 1
+        chance: 20
+        name: "§6Casco Uncommon"
+        lore: "By Maxcraft"
+        enchantments:
+          - name: "protection"
+            level: 2
+          - name: "fire_protection"
+            level: 1
+          - name: "unbreaking"
+            level: 1
+      - id: 311
+        meta: 0
+        amount: 1
+        chance: 20
+        name: "§6Pechera Uncommon"
+        lore: "By Maxcraft"
+        enchantments:
+          - name: "protection"
+            level: 2
+          - name: "fire_protection"
+            level: 1
+          - name: "unbreaking"
+            level: 1
+      - id: 312
+        meta: 0
+        amount: 1
+        chance: 20
+        name: "§6Pantalones Uncommon"
+        lore: "By Maxcraft"
+        enchantments:
+          - name: "protection"
+            level: 2
+          - name: "fire_protection"
+            level: 1
+          - name: "unbreaking"
+            level: 1
+      - id: 313
+        meta: 0
+        amount: 1
+        chance: 20
+        name: "§6Botas Uncommon"
+        lore: "By Maxcraft"
+        enchantments:
+          - name: "protection"
+            level: 2
+          - name: "fire_protection"
+            level: 1
+          - name: "unbreaking"
+            level: 1
+      - id: 322
+        meta: 0
+        amount: 12
+        chance: 15
+        name: "§eGapple"
+        lore: "By Maxcraft"
+      - id: 270
+        meta: 0
+        amount: 1
+        chance: 12
+        name: "§6Taladro 3,000"
+        lore: "By Maxcraft"
+        enchantments:
+          - name: "efficiency"
+            level: 8
+          - name: "unbreaking"
+            level: 10
+      - id: 276
+        meta: 0
+        amount: 1
+        chance: 18
+        name: "§6Espada Uncommon"
+        lore: "By Maxcraft"
+        enchantments:
+          - name: "sharpness"
+            level: 2
+          - name: "fire_aspect"
+            level: 1
+      - id: 175
+        meta: 0
+        amount: 1
+        chance: 10
+        name: "§a$25,000 §eCoins"
+        type: command
+        commands:
+          - "givemoney {PLAYER} 25000"
+    amount: 1
+    commands: []
+    floating-text: "§6Uncommon §rCrate\n§7Click para ver"
+  Vote:
+    drops:
+      - id: 131
+        meta: 0
+        amount: 3
+        chance: 10
+        name: "§eCommon Key"
+        type: command
+        commands:
+          - "key Common 3 {PLAYER}"
+      - id: 131
+        meta: 0
+        amount: 1
+        chance: 8
+        name: "§eMythic Key"
+        type: command
+        commands:
+          - "key Mythic 1 {PLAYER}"
+      - id: 314
+        meta: 0
+        amount: 1
+        chance: 20
+        name: "§eCasco Partner"
+        lore: "By Maxcraft"
+        enchantments:
+          - name: "protection"
+            level: 10
+          - name: "fire_protection"
+            level: 10
+      - id: 315
+        meta: 0
+        amount: 1
+        chance: 20
+        name: "§ePechera Partner"
+        lore: "By Maxcraft"
+        enchantments:
+          - name: "protection"
+            level: 10
+          - name: "fire_protection"
+            level: 10
+      - id: 316
+        meta: 0
+        amount: 1
+        chance: 20
+        name: "§ePantalones Partner"
+        lore: "By Maxcraft"
+        enchantments:
+          - name: "protection"
+            level: 10
+          - name: "fire_protection"
+            level: 10
+      - id: 317
+        meta: 0
+        amount: 1
+        chance: 20
+        name: "§eBotas Partner"
+        lore: "By Maxcraft"
+        enchantments:
+          - name: "protection"
+            level: 10
+          - name: "fire_protection"
+            level: 10
+      - id: 261
+        meta: 0
+        amount: 1
+        chance: 30
+        name: "§aArco Vote"
+        lore: "By Maxcraft"
+        enchantments:
+          - name: "flame"
+            level: 6
+      - id: 466
+        meta: 0
+        amount: 1
+        chance: 5
+        name: "§eGapple"
+        lore: "By Maxcraft"
+      - id: 283
+        meta: 0
+        amount: 1
+        chance: 15
+        name: "§eEspada Partner"
+        lore: "By Maxcraft"
+        enchantments:
+          - name: "sharpness"
+            level: 8
+          - name: "fire_aspect"
+            level: 5
+      - id: 54
+        meta: 0
+        amount: 1
+        chance: 10
+        name: "Kit §5Wizard"
+        type: command
+        commands:
+          - "givekit Wizard {PLAYER}"
+    amount: 1
+    commands: []
+    floating-text: "§aVote Crate\n§7Click para ver"
+  Mythic:
+    drops:
+      - id: 131
+        meta: 0
+        amount: 1
+        chance: 8
+        name: "§5Legendary Key"
+        type: command
+        commands:
+          - "key Legendary 1 {PLAYER}"
+      - id: 368
+        meta: 0
+        amount: 16
+        chance: 15
+        name: "§dPerlas de Ender"
+        lore: "By Maxcraft"
+      - id: 322
+        meta: 0
+        amount: 24
+        chance: 12
+        name: "§eGapple"
+        lore: "By Maxcraft"
+      - id: 57
+        meta: 0
+        amount: 32
+        chance: 20
+      - id: 41
+        meta: 0
+        amount: 32
+        chance: 20
+      - id: 42
+        meta: 0
+        amount: 32
+        chance: 20
+      - id: 466
+        meta: 0
+        amount: 3
+        chance: 8
+        name: "§eGapple"
+        lore: "By Maxcraft"
+      - id: 384
+        meta: 0
+        amount: 32
+        chance: 20
+        name: "§eMythic Crate"
+        lore: "By Maxcraft"
+      - id: 310
+        meta: 0
+        amount: 1
+        chance: 10
+        name: "§eCasco Mistico"
+        lore: "By Maxcraft"
+        enchantments:
+          - name: "protection"
+            level: 6
+          - name: "fire_protection"
+            level: 6
+          - name: "unbreaking"
+            level: 6
+      - id: 311
+        meta: 0
+        amount: 1
+        chance: 10
+        name: "§ePechera Mistica"
+        lore: "By Maxcraft"
+        enchantments:
+          - name: "protection"
+            level: 6
+          - name: "fire_protection"
+            level: 6
+          - name: "unbreaking"
+            level: 6
+      - id: 175
+        meta: 0
+        amount: 1
+        chance: 7
+        name: "§a$65,000 §eCoins"
+        type: command
+        commands:
+          - "givemoney {PLAYER} 65000"
+    amount: 1
+    commands: []
+    floating-text: "§eMythic §rCrate\n§7Click para ver"
+  Legendary:
+    drops:
+      - id: 175
+        meta: 0
+        amount: 1
+        chance: 5
+        name: "§a$110,000 §eCoins"
+        type: command
+        commands:
+          - "givemoney {PLAYER} 110000"
+      - id: 466
+        meta: 0
+        amount: 5
+        chance: 10
+      - id: 444
+        meta: 0
+        amount: 1
+        chance: 5
+        name: "§5Legendary Crate"
+        lore: "By Maxcraft"
+      - id: 450
+        meta: 0
+        amount: 1
+        chance: 12
+        name: "§5Legendary Crate"
+        lore: "By Maxcraft"
+      - id: 322
+        meta: 0
+        amount: 32
+        chance: 20
+        name: "§eGapple"
+        lore: "By Maxcraft"
+      - id: 432
+        meta: 0
+        amount: 8
+        chance: 15
+        name: "§5Legendary Crate"
+        lore: "By Maxcraft"
+      - id: 276
+        meta: 0
+        amount: 1
+        chance: 8
+        name: "§eEspada Mistica"
+        lore: "By Maxcraft"
+        enchantments:
+          - name: "sharpness"
+            level: 6
+          - name: "unbreaking"
+            level: 6
+      - id: 312
+        meta: 0
+        amount: 1
+        chance: 10
+        name: "§ePantalon Mistico"
+        lore: "By Maxcraft"
+        enchantments:
+          - name: "protection"
+            level: 6
+          - name: "fire_protection"
+            level: 6
+          - name: "unbreaking"
+            level: 6
+      - id: 313
+        meta: 0
+        amount: 1
+        chance: 10
+        name: "§eBota Mistica"
+        lore: "By Maxcraft"
+        enchantments:
+          - name: "protection"
+            level: 6
+          - name: "fire_protection"
+            level: 6
+          - name: "unbreaking"
+            level: 6
+      - id: 54
+        meta: 0
+        amount: 1
+        chance: 6
+        name: "Kit §aEmperador"
+        type: command
+        commands:
+          - "givekit Emperador {PLAYER}"
+    amount: 1
+    commands: []
+    floating-text: "§5Legendary §rCrate\n§7Click para ver"
+  Rare: 
+    drops:
+      - id: 322
+        meta: 0
+        amount: 64
+        chance: 25
+        name: "§eGapple"
+        lore: "By Maxcraft"
+      - id: 466
+        meta: 0
+        amount: 16
+        chance: 20
+      - id: 445
+        meta: 0
+        amount: 1
+        chance: 15
+      - id: 138
+        meta: 0
+        amount: 1
+        chance: 15
+      - id: 131
+        meta: 0
+        amount: 8
+        chance: 15
+        name: "§cCommon Key"
+        type: command
+        commands:
+          - "key Common 8 {PLAYER}"
+      - id: 131
+        meta: 0
+        amount: 6
+        chance: 13
+        name: "§6Uncommon Key"
+        type: command
+        commands:
+          - "key Uncommon 6 {PLAYER}"
+      - id: 131
+        meta: 0
+        amount: 4
+        chance: 13
+        name: "§eMythic Key"
+        type: command
+        commands:
+          - "key Mythic 4 {PLAYER}"
+      - id: 131
+        meta: 0
+        amount: 2
+        chance: 10
+        name: "§5Legendary Key"
+        type: command
+        commands:
+          - "key Legendary 2 {PLAYER}"
+      - id: 313
+        meta: 0
+        amount: 1
+        chance: 8
+        name: "§rBota §dGlitch"
+        lore: "By Maxcraft"
+        enchantments:
+          - name: "protection"
+            level: 8
+      - id: 311
+        meta: 0
+        amount: 1
+        chance: 7
+        name: "§rPechera §dGlitch"
+        lore: "By Maxcraft"
+        enchantments:
+          - name: "protection"
+            level: 8
+      - id: 278
+        meta: 0
+        amount: 1
+        chance: 7
+        name: "Pico §5Legendario"
+        lore: "By Maxcraft"
+        enchantments:
+          - name: "efficiency"
+            level: 6
+          - name: "unbreaking"
+            level: 6
+      - id: 175
+        meta: 0
+        amount: 1
+        chance: 7
+        name: "§a$160,000 §eCoins"
+        type: command
+        commands:
+          - "givemoney {PLAYER} 160000"
+    amount: 1
+    commands: 
+    floating-text: "§3Rare §rCrate\n§7Click para ver"

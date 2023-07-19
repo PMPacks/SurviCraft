@@ -1,0 +1,116 @@
+#  ______                           _____
+# | ___ \                         /  ___|
+# | |_/ /_   _ _ __ __ _  ___ _ __\ `--. _ __   __ ___      ___ __   ___ _ __ ___
+# | ___ \ | | | '__/ _` |/ _ \ '__|`--. \ '_ \ / _` \ \ /\ / / '_ \ / _ \ '__/ __|
+# | |_/ / |_| | | | (_| |  __/ |  /\__/ / |_) | (_| |\ V  V /| | | |  __/ |  \__ \
+# \____/ \__,_|_|  \__, |\___|_|  \____/| .__/ \__,_| \_/\_/ |_| |_|\___|_|  |___/
+#                  __/ |               | |
+#                 |___/                |_|
+
+
+# Set this to false if you want to register entities with an external plugin like PureEntitiesX.
+# If this is set to false the only spawners that will work are Zombie and Squid, if you don't have an external plugin
+register-mobs: true
+
+# While this is true, Spawners can be stacked onto each other. If this is set to false, each Spawner will have to
+# be placed separately
+allow-spawner-stacking: true
+
+# While this is true, Mobs are stacked onto each other. If this is set to false, mobs will be individual entities instead
+# If this is disabled, Mobs will always drop items and Experience.
+allow-mob-stacking: true
+
+# Setting this to false makes mobs drop no Exp. This also ignores any Mob Experience Values set
+mobs-drop-exp: true
+
+# Setting this to false makes mobs drop no items. This also ignores any Mob Drops set, both custom and default mob drops
+mobs-drop-items: true
+
+# Setting this to true makes drops from Spawners automatically go to the players inventory
+auto-inv: false
+
+# Setting this to true makes xp dropped automatically go to the player
+auto-xp: false
+
+# Enable Silk Touch. When set to false, Spawners can be picked up with all Pickaxes
+# When set to true, only Pickaxes with Silk Touch can pick up Spawners
+enable-silk-touch: false
+
+# Setting this to false disables nametags on mobs
+enable-nametags: true
+
+# Setting this to true needs the player to have the permission "burgerspawners.silktouch" in order to
+# use the Silk Touch on Spawners.
+enable-silk-touch-permission: false
+
+## Setting this to true allows spawners to drop when they are exploded
+## (by an entity or tnt).
+enable-explosion-drop: true
+
+## This setting allows you to make explosion drops have a chance.
+## This option will only work if "enable-explosion-drop" is set to true.
+## Default: 50
+## Please also keep in mind - You can't go over 100 in chances, only from 0 to 100.
+## 100 means spawner drops from explosions will always occur.
+## 0 means spawner drops will (either rarely or not at all) happen.
+explosion-drop-chance: 50
+
+# This is the base spawn rate of one Spawner. If this is set to 40, a single unstacked Zombie Spawner
+# spawns a Zombie every 40 seconds. If 2 Spawners are stacked, it spawns one every 20 seconds instead.
+# If you set this value to 20, a single unstacked Zombie Spawner will spawn one Zombie every 20 seconds.
+base-spawn-rate: 5
+
+# This is the spawn range, from how far you can be from a spawner in order for it to continue spawning.
+# Example: If the spawn-range is 16, then mob spawning from your point of view would go upto 16 blocks.
+# People have to note that spawn-range isn't in chunks. It's in blocks.
+# Recommended setting - Don't put it below 4, anything higher than 4 will do.
+# Highest to go: 16, but you can do more. Whatever suits your needs.
+# Default: 8
+spawn-range: 8
+
+# This is the max number of mobs that can be in one stack at once
+max-stack: 5000
+  
+# This is the Entity Scale within the Spawner. The size of the entity inside the spawner can be configured
+# using this. A too high or a too low value won't show. The optimal range is between 1-2.
+# Some mobs, for example, Ghasts don't display higher values
+spawner-entity-scale: 1.8
+
+# Set this to true if all mobs should be killed by just one shot.
+one-shot-mobs: false
+
+# If you don't want mobs to stack in a particular world, list the world's full Folder Name here. This is an array and any
+# worlds in this array will have mob stacking disabled.
+mob-stacking-disabled-worlds:
+  - "disabledmobstacking"
+  - "disabledmobstackingheretoo"
+
+# If you don't want spawners to stack in a particular world, list the world's full Folder Name here. This is an array and any
+# worlds in this array will have spawner stacking disabled.
+spawner-stacking-disabled-worlds:
+  - "disabledspawnerstacking"
+  - "disabledspawnerstackingheretoo"
+
+# entities listed here are exempted from stacking. The name of the entity must be the same as
+# The name seen via /spawner list
+exempted-entities:
+  - "chicken"
+  - "exampleentity"
+  
+# Set custom drops for mobs here
+# FORMAT: <id:meta:count>
+custom-mob-drops:
+  zombie:
+    - "409:0:1"
+
+# Plugin Messages:
+# Use "&" for color codes.
+no-available-spawners: "&cYou do not have any Spawners of this type in your hand!"
+player-given-spawner: "&aPlayer &b{player} &ahas been given an &b{spawner}"
+all-spawners-stacked: "&aAll available Spawners stacked"
+all-spawners-removed: "&aAll available Spawners removed"
+cannot-use-spawners-here: "&4You cannot use Spawners here!"
+mob-nametag: "&l{count}x &6{name}"
+
+
+

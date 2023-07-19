@@ -1,0 +1,16 @@
+# SimpleCrates config by iRxDuZ ツ
+
+# Keys configuration
+keys:
+  id: 131
+  meta: 0
+  name: "§d{CRATE} Key"
+  lore: "§eClaim rewards from a {CRATE} Crate"
+
+# Crates configuration default
+# Default blocks (chest, enchantment table, end portal frame, shulker box)
+crates:
+  blocks: [54, 116, 120, 218]
+  animation: true
+  duration: 5
+  drop-item-time: 5

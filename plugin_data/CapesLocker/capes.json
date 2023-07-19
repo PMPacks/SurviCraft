@@ -1,0 +1,50 @@
+{
+    "verre2ouiski" : {
+        "name": "§l§k§2!!!§r §aVerre2OuiSki §l§k§2!!!§r",
+        "description": "Cape of the great and wonderful creator of this plugin\nVerre2OuiSki !",
+        "cape": "verre2ouiski",
+        "default": true
+    },
+    "mojang" : {
+        "name": "New Mojang Cape",
+        "description": "All Mojang AB employees have Mojang logo capes. This design has been used since October 7, 2015.",
+        "cape": "NewMojang",
+        "default": true
+    },
+    "christmas_cape" : {
+        "name": "Christmas Cape",
+        "description": "On December 24/25, 2010, all users were shown with this Christmas tree cape. This cape was not added to user accounts.",
+        "cape": "Xmas",
+        "default": true
+    },
+    "xbox_birthday_cape" : {
+        "name": "Xbox Birthday Cape",
+        "description": "From May 9 to May 13, 2013, all players of the Xbox 360 Edition were shown with this birthday cake cape to celebrate the 1st birthday of the Xbox edition of Minecraft.",
+        "cape": "XboxBirthday",
+        "default": true
+    },
+    "mojira_moderator_cape" : {
+        "name": "Mojira Moderator Cape",
+        "description": "This cape was given to the Bug Tracker Moderators on December 25, 2014, and again from May 9, 2016 onwards.",
+        "cape": "BugTracker",
+        "default": true
+    },
+    "turtle_cape" : {
+        "name": "Turtle Cape",
+        "description": "This cape was given to 'billyK_' for suggesting Mojang adds turtles to the game.",
+        "cape": "Turtle",
+        "default": true
+    },
+    "migrator_cape" : {
+        "name": "Migrator Cape",
+        "description": "This cape will be given out to players who migrate their Mojang account to Microsoft account system.",
+        "cape": "MSCape",
+        "default": true
+    },
+    "gr8_escapes_cape" : {
+        "name": "Gr8_Escape's Cape",
+        "description": "This cape was given to Gr8_Escape. The account is owned by a Mojang employee leading the work on minecraft.net",
+        "cape": "Gr8_Escape",
+        "default": true
+    }
+}

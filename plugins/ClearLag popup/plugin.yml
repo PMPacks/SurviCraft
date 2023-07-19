@@ -1,0 +1,5 @@
+name: ClearLagg Popup
+version: 1.0.0
+api: 4.0.0
+main: Jason8831\ClearLagg\Main
+author: Jason8831

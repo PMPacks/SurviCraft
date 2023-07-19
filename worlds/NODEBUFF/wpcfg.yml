@@ -1,0 +1,13 @@
+---
+bancmds:
+  /ec: /ec
+  /enderchest: /enderchest
+  /kit: /kit
+  /ekit: /ekit
+  /ah: /ah
+border:
+- -744
+- -744
+- 1256
+- 1256
+...

@@ -1,0 +1,61 @@
+command:
+  name: menu
+  aliases:
+    - mn
+    - itz
+    - espiralmenu
+  description: "§aMenu §aEspiral §bCraft"
+  usage: "/menu"
+
+form:
+  title: "§aEspiral §bCraft"
+  buttons:
+    Menu:
+      title: "§b§lMundos"
+      command: "/warp"
+      image:
+        # use url, path, sin imagen es -> ~
+        type: "~"
+        path: ""
+    Minigames:
+      title: "§b§lEnchants"
+      command: "/eshop"
+      image:
+       # use url, path, sin imagen es -> ~
+        type: "~"
+        path: ""
+    shDop:
+      title: "§b§lTinda"
+      command: "/shop"
+      image:
+        # use url, path, sin imagen es -> ~
+        type: "~"
+        path: ""
+    shoSsp:
+      title: "§b§lMinas"
+      command: "/minas"
+      image:
+        # use url, path, sin imagen es -> ~
+        type: "~"
+        path: ""
+    shSop:
+      title: "§b§lReclaim"
+      command: "/reward"
+      image:
+        # use url, path, sin imagen es -> ~
+        type: "~"
+        path: ""
+    shFop:
+      title: "§b§lSellui"
+      command: "/sellui"
+      image:
+        # use url, path, sin imagen es -> ~
+        type: "~"
+        path: ""
+    ah:
+      title: "§b§lSubastas"
+      command: "/ah"
+      image:
+        # use url, path, sin imagen es -> ~
+        type: "~"
+        path: ""

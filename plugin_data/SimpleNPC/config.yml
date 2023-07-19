@@ -1,0 +1,21 @@
+### SimpleNPC Configuration File ###
+# Author: @brokiem (https://github.com/brokiem)
+# Source code: https://github.com/brokiem/SimpleNPC
+
+# Don't edit this version
+config-version: 3
+# ---------------------- #
+
+# Enable npc look to players
+# Default: true
+enable-look-to-players: true
+# Max npc distance to look at players
+# Default: 8
+max-look-distance: 8
+
+# Enable command cooldown to prevent executing command too fast when hitting npc
+# Default: true
+enable-command-cooldown: true
+# Coldown executing command when hit the NPC
+# Default: 1.0 (float)
+command-execute-cooldown: 1.0

@@ -1,0 +1,71 @@
+#don't touch this
+config-version: "7.0.0"
+
+# When you installed a new update, (if true) the plugin will try to add all the missing config values. This applies to Commands.yml, Lang.yml and Config.yml
+# This WILL remove all comments made and the file might be harder to read.
+auto-update-config: false
+
+# only works when forms are enabled
+enable-categories: true
+
+# the default values for the kit flags when creating a kit
+default-flags:
+  locked: true
+  emptyOnClaim: false
+  doOverride: false
+  doOverrideArmor: false
+  alwaysClaim: false
+  chestKit: false
+
+# this will only change /kit, not /createkit or /deletekit
+use-forms: true
+
+# show players kits they don't have permission to claim
+show-locked: false
+# show players categories they don't have permission to see
+show-locked-categories: false
+
+# if true, the player also needs the easykits.kit.<kitname> permission to equip the chestkit.
+chestKit-locked: false
+
+chestKit-itemid: 54
+
+# give all EasyKits.kit.* permissions to operators
+op-has-all-kits: true
+# give all EasyKits.free.* permissions to operators
+op-has-free-kits: false
+# give all EasyKits.instant.* permissions to operators
+op-has-instant-kits: false
+# give all EasyKits.category.* permissions to operators
+op-has-all-categories: true
+
+# item format
+#
+# enter nbt for a format that saves items exactly, with all their NBT tags. This comes with the disadvantage of not being able to easily edit this from the config files. It should work with all custom enchant plugins, banknotes, storing chestkits in kits ...
+# enter simple for a format that only saves certain info. This format will be incompatible with some plugins like customenchants (excluding PiggyCustomEnchants).
+#
+item-format: "nbt"
+
+# Images for the forms, made by fernanACM
+# You can use url of internet images, example:
+# Form:
+#   image:
+#     category-unlocked-url: "https://user-images.githubusercontent.com/83558341/195784419-7efde11a-f0f0-4dc2-ad3c-69616cbfb611.png"
+
+Form:
+  image:
+    category-unlocked-url: "https://cdn.discordapp.com/attachments/1010239483750387714/1081750123798872194/Survicraft.png"
+    
+    category-locked-url: "https://imagenpng.com/wp-content/uploads/2015/03/Imagenes-Candado-PNG-1.png"
+    
+    givekit-kitselect-url: "https://cdn.discordapp.com/attachments/1010239483750387714/1081750123798872194/Survicraft.png"
+
+    givekit-playerselect-url: "https://cdn.discordapp.com/attachments/1010239483750387714/1081750123798872194/Survicraft.png"
+
+    kit-free-url: "textures/ui/promo_gift_small_blue"
+
+    kit-lock-url: "textures/ui/lock_color"
+
+    kit-cooldown-url: "https://cdn.discordapp.com/attachments/1010239483750387714/1081750123798872194/Survicraft.png"
+
+    kit-priced-url: "textures/ui/MCoin"

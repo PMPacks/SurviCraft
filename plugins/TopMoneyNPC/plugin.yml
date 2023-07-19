@@ -1,0 +1,15 @@
+name: TopMoneyNPC
+main: RhaxZDev\NPCTop\Main
+version: 1
+api: [4.8.1]
+author: RhaxDev
+
+permissions:
+  cmd.topnpc:
+    default: op
+    description: Allows to Spawn TopNPC
+
+commands:
+  topnpc:
+    description: TopMoneyNPC!
+    permission: cmd.topnpc
